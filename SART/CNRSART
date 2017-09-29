@@ -1,0 +1,2 @@
+ gcc source/camcam.c source/init_coe.c source/poinit_coe.c  -lm -fopenmp -g -o exe/SART
+./exe/SART

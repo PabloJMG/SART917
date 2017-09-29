@@ -1,0 +1,1870 @@
+%!PS-Adobe-2.0
+%%Title: img/imSART/NumAng_5_Numpix_45,dim_200x200__0.png
+%%Creator: gnuplot 5.0 patchlevel 3
+%%CreationDate: Mon Sep 18 15:37:07 2017
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 554 770
+%%Orientation: Landscape
+%%Pages: (atend)
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color false def
+/Blacktext false def
+/Solid false def
+/Dashlength 1 def
+/Landscape true def
+/Level1 false def
+/Level3 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -46 def
+/dl1 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 554 50 lineto 554 770 lineto 50 770 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 5.1 (Oct 2015)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Classic Line colors (version 5.0)
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default dash patterns (version 5.0)
+/LTB {BL [] LCb DL} def
+/LTw {PL [] 1 setgray} def
+/LTb {PL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [2 dl1 3 dl2] LC1 DL} def
+/LT2 {PL [1 dl1 1.5 dl2] LC2 DL} def
+/LT3 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC3 DL} def
+/LT4 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [4 dl1 2 dl2] LC5 DL} def
+/LT6 {PL [1.5 dl1 1.5 dl2 1.5 dl1 1.5 dl2 1.5 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC8 DL} def
+/SL {[] 0 setdash} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto gsave closepath fill grestore} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+dup 2 lt
+	{/InterpretLevel1 true def
+	 /InterpretLevel3 false def}
+	{/InterpretLevel1 Level1 def
+	 2 gt
+	    {/InterpretLevel3 Level3 def}
+	    {/InterpretLevel3 false def}
+	 ifelse }
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+%
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {textshow} {stringwidth pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get stringwidth pop -2 div
+     dup 0 R} {dup 6 get stringwidth pop -2 div 0 R 6 get
+     textshow 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (img/imSART/NumAng_5_Numpix_45,dim_200x200__0.png)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 5.0 patchlevel 3)
+  /Author (pablo)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Mon Sep 18 15:37:07 2017)
+  /DOCINFO pdfmark
+end
+} ifelse
+%
+% Support for boxed text - Ethan A Merritt May 2005
+%
+/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
+           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
+	   /Boxing true def } def
+/ExtendTextBox { Boxing
+    { gsave dup false charpath pathbbox
+      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
+      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
+      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
+      grestore } if } def
+/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
+               TBx1 TBxmargin sub TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
+/DrawTextBox { PopTextBox stroke /Boxing false def} def
+/FillTextBox { gsave PopTextBox 1 1 1 setrgbcolor fill grestore /Boxing false def} def
+0 0 0 0 InitTextBox
+/TBxmargin 20 def
+/TBymargin 20 def
+/Boxing false def
+/textshow { ExtendTextBox Gshow } def
+%
+% redundant definitions for compatibility with prologue.ps older than 5.0.2
+/LTB {BL [] LCb DL} def
+/LTb {PL [] LCb DL} def
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.100 0.100 scale
+90 rotate
+0 -5040 translate
+0 setgray
+newpath
+(Helvetica) findfont 140 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {gsave BackgroundColor C clippath fill grestore} if
+/Helvetica findfont 140 scalefont setfont
+/vshift -46 def
+gsave % colour palette begin
+/maxcolors 0 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor false def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+false { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+546 280 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 280 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-50)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 1045 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 1045 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 1810 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 1810 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 50)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 2576 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 2576 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 100)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 3341 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 3341 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 150)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 4106 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 4106 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 200)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 4871 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 4871 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 250)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+546 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-50)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1463 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+1463 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+2379 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+2379 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 50)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+3296 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+3296 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 100)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+4213 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+4213 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 150)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5129 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+5129 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 200)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6046 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+6046 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 250)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+546 4871 N
+546 280 L
+5500 0 V
+0 4591 V
+-5500 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UL
+LTb
+LCb setrgbcolor
+/Helvetica findfont 140 scalefont setfont
+LCb setrgbcolor
+5395 4738 M
+('/home/pablo/local.git/pablo/res/Resultados_SART/Resultados_SART_11.txt') Rshow
+1.000 UL
+LTb
+LCb setrgbcolor
+%%%%BeginImage
+gsave 546 4871 N 546 280 L 6046 280 L 6046 4871 L Z clip
+InterpretLevel1 {
+  %% Construct a box instead of image
+  LTb
+  1454 4710 M
+  4400 0 V
+  0 -3672 V
+  -4400 0 V
+  1454 4710 L
+  40 -110 R
+  (PS level 2 image) Lshow
+  % Read data but ignore it
+  /imagebuf 65535 string def
+  /imagebuf_rest 7390 string def
+   1 1 1 { pop currentfile imagebuf readstring } for
+  currentfile imagebuf_rest readstring
+} {
+  gsave
+  {pm3dGamma exp} settransfer
+  1454 4710 translate
+  4400 -3672 scale
+  240 240 8
+  [ 240 0 0 240 0 0 ]
+  currentfile /ASCII85Decode filter
+  image
+} ifelse
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg[-$N5k2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnW2
+QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYl
+5T$GuPEVrDW&>HjW0<FDW2PT2W2QXF*d=QCNi8nT-75[iMcUdpW#gVFW2LROW2QYAH`3kk."8+nCi$
+&KW-EQcW(K[\W2Oo>W2QY;Ff;6[F*":YF*":YW,m$YW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnW2QYnW2QYnW2QY
+nW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QY]Q`-j]EcS+WPEVrDW&
+C0EW*`n=W2PT2MQ!IY*iQ#t>$@l'-B*n^W)m'!W2PB&W2N@=W2QXb8#WAbIX\5o77DO$W-D"7W(M8X
+W2NZp<2ca<Ff;7;F*":YF)uE$W,m$YW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggg#hGZk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgZg"GNMk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk,>5WW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYn
+W2QYnW2QYnW2QY=GGqI,Q`-j]@q2I9VP\@3W0<FDW2OBCW2PoDPGkE\,`8P!*F,PAW/cn:W*!0#W2P
+W4W2QYJKW(hB9;nefH[D]i8P+B0W-V04W2OrcW2QXn;lHX=G>tN>;K\q:W,m$YW,m$YW2OcYW2QYnW
+2QYnW2QYnW2QYnW2QYnW2QYnW2QYnk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk,>5WW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2Q,PW2
+QXfGGqI,QSPM<A!`O\W#%[sW0<F/W2LPHW2QYY/Z>VHMMe?U*@e"dW/cn:W*#";W2LR[-)dbqKW(ge
+(k8K_HPI9oW(DH:W2M6uW2OrcW2QXnGGqI=<)ffpF`hi*W,m$YW,m$$W2OcYF/Z%9W2QYnW2QYnW2Q
+YnW2QYnW2QYnW2QYnk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tgg[-$N5k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk,G>ZWMukrWMukrWMukrWMukrWMukrWMukrWMukrWMukrWM
+ukrWMukrWMu)FWN!.=N2`dnD5jL3R@1%RB4n3CWL0'PWA4jKWMub8WMuk\PGtNq*Zh;[PET@QWJc\6
+WE`\5WMtr>WMuj9)l]g9=')B#KnZM*WCmr)WI0(hWMq"hI]9;I<iN'DH$QBg<+^?RWH_[IWMt#_WMs
+u]WMuk<F/c.<F*"=[WMukrWMukrWMukrWMukrWMukrWMukrk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk,G>ZWMukrWMukrWMukrWMukrWMukrWMukrWMukrWMukrWMukrWJ-&*WMsc
+QWMukUN2`d#D5jM6R@1%RB4m^5WL+6rWMu8PWMsoYEiH%%PGtO\SXlaZW=WF9WJc[YGB[:sWMtq(.&
+j2)N2`eU=')B#KnY5[WCq_jWMpY/WMukGI]9;I<iN'tGpB;fWHWQcWIKDsWMt#_WMsu]FK)6\F*"=[
+F*"=[WMukrWMukrWMukrWMukrWMukrWMukrk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg5k2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnW2
+QYnW2QYnW2QYnW2QYnW2QYnW.'2oW.BMNW2PQ0W2QYYPGkE,95(9&OH?E>W+DBqW1-+cW2Q&LQ`-im
+A#Q?'5s_HJPEVrDW&?Q4W0<DsW2N`tW2QXE.]B;+NfL':-<OBKW/HS4W)//#W2Lg]W2QYAH`3mA>(3
+EKH6oMgW-EQcW$OK/W2OoaL8_%VFf;6[F*":YF)uE$W,m$YW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnW2QYnW2QYnW2QY
+nW2QYnW.KW"W.'2oW2P8uW2PQ0?)X]cPGkFY98ogJ>W`b"W0s'PW2N$LW2QY)A#Q=bQ`-j]5s_HJPE
+T@PW&?Q4W2O&TW2PT2MQ!I'.]B;ENfL':W/Q\6W)k:DW2PB&W2Lg]J#K;m=/`'rIX\5o=!\QZW-EPm
+W2Mb$W2QY%DlBUWFf;7;;fen9W,m$YW,m$YW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tgg[-$N5k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg5[-$N5k
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg5['\uXk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk,>5WW2QYnW2QYnW2QYnW2QYnH[C+<W.'2oW2P<"W2P/oNMre,JZ,NG@:?+5PEV3/W*#"WW2LM;W2
+O6pRAd&rAuMZ,QTqFI@q1k(W$cS`W2PoDW2OBCBW.kn+K26;MMe@2-<sfSW/cn:W2NgWW2PV*?DsfU
+KW(iJ>?e&)H[@*<W*=_LW2LYAW2OrcGc7QI?Dsg$G;cCu<HWG_W*<JIW2OcYW2OcYF/Z%9W2QYnW2Q
+YnW2QYnW2QYnW2QYnk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW
+2QYnW2QYnIX\5oW-`liW.'2oW2P<"W2QYSNMre,JUsbu)b6j*W*_cfW*#";W2LLrW2QY_RAd&+At,`
+t(I+jsW0`jLW$b'3W2Pn4W2QYbS>`A//M3p"MMe@2W$YcJW/`8SW2PZ6W2QXG/?#M#KJ0:&,CcYjW$
+!FcW.'2EW2LXdHDmce/uY^mGB^!a+#^'rW-*6]W2P;hW2OcYW2QY9F/Z%9W2QYnW2QYnW2QYnW2QYn
+W2QYnk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk02'3k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggd,sKQk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk02'3k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2t"Pk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk,G>ZWMukrH?uQiH[D`kWIB;qWMt5kWMt>qI]9<2A>uPWIX
+\8q8P+K4WDO;-WMu)FWMqj:&ZMalOf>=ZR@1%R7n4Z#WL0'PWMr+LWMuaa/ubh6PGtO\3%Lu-PEQf,
+G9e<1WMs,EWMtr>O/]*2/ubhLMeK)h085+ZW@K6nWMt8mWMqU,I]9;m)l]g9H$QBg,pa&#WH`ZeWMt
+#_WMs-S>H+TCF/c.<F*"=[WMukrWMukrWMukrWMukrWMukrk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk,G>'G,_I?H?uQiH[C+=WIB;FWMt5kWMukGI]9<DA:ge[>$@o)WI]W"WDQN
+lWMu)FWMukUN2`d]>[48-R@1%RWFq^"WL.1*WMu8PWMuk;EiH%%P@(;gBe-0^WF'#3GDhB;WMs,EWM
+ukX@]?=ZN/Xa8BP=BEWJ-&*WE`\XWMt8QWMukGI]9;U@Uc=9H$QBgW?lbfWF0+AWMt#_FfD?F>H+TC
+F*"=[F*"=[WMukrWMukrWMukrWMukrWMukrk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk&dQ#W-*6]W-WcgW2P&iW2QYDI]02
+lT;\]eIX\5o+AcCCW.'1TW2P8uW2QXV4/f*APEVrD5)cG=W'!2@W0s'PW2N9ZW2QY]6`?qnQ^=YL9h
+hRbW0<FDW%_nTW2Pn4GB^!CMQ!I#11[>^NfL':W&K[6W/EPlW2PB&W2QXMA>lGRHSMItAq$\WW$j'm
+W-EQ3W2M7RW2QY=/uY^kF`jX](dFstW,m$YW,m$$W2QYnW2QYnW2QYnW2QYnW2QYnk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk&dQ#W-*6]W-Wc9W2P&iH`3llI]03;T9H4PIXYJ!W
+.KW"W2N<JW2P8uW2QXV4/f*V?XKb1N/W^oW*DH`W0s'AW2N:WS#E8qA#Q?)Q^=YL9hhL`W0:SeW2Q5
+VW2O'1.B'2&MQ!JP16AH5NbW=-W/Q\6W2MU4W2PA`BrIscJ#K<E@kjp\IXZaEW$j'mW2OrKW2OoaGG
+qHI/uY_IF`jX]5BCnEW,HUQW2OcYW2QYnW2QYnW2QYnW2QYnW2QYnk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggio]Cck
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k0`>Rk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggio]Cck2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgcio]Cck2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk'2-PXK6\mXK6l"I]TW#It+Q$VP^GrIt(\(XFc&*XK58rXK8LT9rtE6KrhAW<)fs#Q^=&?XBZ\`XK
+7XoXK4s`SZJo-C+66cS"$L\X=p'EXK$EEXK7bTXK8L>/$,h=QYNV'-'#(.EH-!"XHJa0XK67tXK8LF
+FKDQ$Lkr.6CMU#QXFG`$X;i43XK6k_W2tAoI&sDY@MZ&HH[DiqXEf)mXE/H(XK6ViXK8LIGH@mIXK8
+M)XK8M)XK8M)XK8M)k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk'2,qXK6\mX
+K8LPI]TWPUSFolJqC)*XBSo1XFc$jXK58rL9.Hj'WeBiKnZV0(K=A8XI#9TXK7MFXK3INXK8LoSZJo
+oC7hT/Rk&-QXIG]\X>k?FXK7bT5-1i%TWG5G4$TgJNfK.$XDr6]XK7RJXK69#OK>NGFKDRFLkr.6CM
+SR(XFD4kXK7#*XK6#GAur(])m$-B@X>,W()CSbXEf)mXK6JaXK6Vi7BES7GH@mIXK8M)XK8M)XK8M)
+XK8M)k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tgg]=[4fk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2t[ck2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tgg]B88<k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2POck2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk-(t7HEXN"I!i-$UnjfiYCTu_Y?G+_YHLY^YHP-_KWhS_7iSY8KM\kUYD7n
+:Y?++4YHO@^AZr:/P-;'U@NhqYT:_aZY>$XQYHOO3YHLWkYHP-S9!>G%R@17^;Gs9nYF0O:Y<e83YH
+L;\6a*\XPcq9o7?XjXGt10(YD\=BYHK`+YHNLkBs4^$KWhS_2BT-+It)7;Y;eMFYHNBtYHN;"H`sV4
+33TNhH#'UeH$O\=YHP.5YHP.5YHP.5YHP.5k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk-(t7HEXNUI!i-$UniOEY?bG;YHNV4YHLYp9s:aR&$N1?Lkr7<:f'ulYD7lOYHM"JYHO@*A
+Zr;#P-;'m@UcOEYFdDMYAKu:YHMYSYHOOhT!,>BGc\*PR;B(1G,(h9MKO&aYHO%LYHP-rQ`mS`H*=E
+TP*3#PYBbDsYDXfEYHKa9YHNLkBs4^nKS6P4BHOF]Y9.P`YC1hIYHN4sYHP-V'sFfTH?ucuCMU,WH$
+O\=YHP.5YHP.5YHP.5YHP.5k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tgCk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk'jYCI\X6UZ_W,XZX@0KZa5@>Za6u
+;LpOFA)H!iILkpknZWC57Z\XE.Za3_kZa6ta>-kQASXm*n@Uc[MZ^Xk!ZYuV6Za2W2EO3!GU9h1CD5
++ACY\&NoZ^mYnZa5::Za63nZa7!'Q*[g'It+f2R@0JLZ[RA0Z^![@Za4S2O0c04EO3!XL5*%@E,^W>
+ZRBh"Za5::Za5(.Za6ui5dRf'It+f2'lS#sZ[I8.Za4b%Za7!EZa7!EZa7!EZa7!Ek2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk'jYCUSFTjZ[dS4Za4%mZa5?]:U@B`LpOFo8kQFrL
+knC(ZPciNZa1lIZa5RJMmK`99XD(3SQE/(.$g1*ZRSjNZa6F%Za2VmV6dM&9s_14U8#!#ZY!gUZ^mY
+nZa4#:Za3;*<jT,tQ'J\^<)g31R=J)>Z[S4+Za2e^Za7!!O0c/FM6jOp-TeZ@Z\XFDZRA%kZa59YZa
+2-4J[;["5X;Z^It+f2ZTW65Z[G3IZa5(.Za7!EZa7!EZa7!EZa7!Ek2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk1&PUk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggg?.P[k
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk1&PUk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg`ocFGk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2t(Rk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk+\TVZ[[ISZa3neZa6tt#d^jlL5*%@;BrNSZ\BI+ZVH@6Za3aWZa6upM6jN],`K(9O'ArsZ_!bpZV
+aRKZa6-jZa6uBUpID6=$EssU8#!#ZW9W'Za$c=Za66pZa5j+=d,&@St<9p<`YKlZ\)5`Za6'fZa3+d
+Za7!(QF!p(O,pWRE\"K&Z\F4@ZU@3<Za5@91paN@K<qnj5T$i6JqA*NZTf84Za4coZa5+0Za6u%'sk
+6QZa7!EZa7!EZa7!Ek2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk+[=2Za3k?Z
+a514J?uRZ;7!U8L/G:`</HI<ZVaT+Za5LFZa3b9N3fjI<3rp;N/Y*L>?`G\Z_!bpZa4/.Za6-6B="q
+?UpID6EH/=kU7ue:ZW<fpZa5XNZa66pT!PbV=gPH@SqFAUZ^$f^Z\*n:Za6'fZa3,fQa=#IIX\W0O,
+pWREcR&DZ\EOBZa26?Za6ugJ?uS7K<qnjEIkI&ZZL;qZ[dRVZa4dsZa5+0DmQc6IX\W0Za7!EZa7!E
+Za7!Ek2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tg[g=k]Ok2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggg?.P[k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+aQDXIk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk-\H!>d^tj9sqC:JqCD<:/4Ql[>0OF[C'%n[C(ce;73fiMm]t#;d-T:Mi1!
+2[98Nt[C&k/[C)[#TXD1/=1,HD=')f;EMfV@[:X$Y[C)g+[C'.fUp[V9Dmd!\TV/]ZAT3[;[@j1+[C
+)?f[C'";=gbZ,S$fZ3<IqQc[80T+[?6TZ[C&Lp[C(gH;RNoeMi5!N6q"GjKnY5g[6o(h[C(ZZ[C*Do
+K!i!N5IIo,J:P&8[7>bT[C*EM[C*EM[C*EMk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk-_UIJ@2dZ9g,nlJqCD<[8)Ia[>.[Z[C(pN[C&q1;73fiMcR6n;i\8n[8p>9[>p9-[C&k/[
+C*DXCULQOR@1IjBih^M[AKh/[:X$K[C)f\[C*E<Up[UkDelbgTV/^#Q`6sl[C(g([C)?f[C*DF=gbZ
+,K7gS>R@1Ij[=D&\[?6T6[C&M`N4$'HKXJ4qMi5!N6q"Gj[=re3[C(X>[C(@.[C*DoK!i!N5Cg/LH$
+O\C[=Ee8[C*EM[C*EM[C*EMk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk.%q2:J\L1K7efd\.OG)\@>O=\@@E
+RMR^0!&\,?\MH.0r16%:'\6N:K\@@NX\@>cgOLVf-?b!VUU8#0-B4j*3\=fM)\@>D7\@APnL:FakVm
+s7H<)gB;[@3Po\>#_-\@@cf\@A9-K"/<j<OfQKLkrRNSXl=]\:[:R\@@ur\@=VbPdn5\MR^1+MMepR
+\1ruQ\;>OA\@@?N\@?s8-b-[ALNp>=*/(i3I!g=O\:T<a\@?#O\@B&Y\@B&Y\@B&Yk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk"`Fr:P60eK1&MF\:oWj\@>O=\@B&+;Rj5>NK(HX&
+O!Y6\;cKX\6N:$\@@MK\@>e*OLVeH?XL=QU8#0-\7_;@\49&1\@AK9\@B&'L:Fak@W/cdKVu>i\9j[
+S\>#^4R$a,&\@B%[A[o7<R@1Rp@>MG'\=K2#\@A#t\@>1)\@B&5Pdn5\MN53VMD;WN\;cKX\0uZL\@
+@?N9t7]]L:Fb'*_*ZLKS6kF\9r\6\@@,F\@?%#\@B&Y\@B&Y\@B&Yk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgGk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk1/VVk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tgYk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2t4Vk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tgYk2tggk2tggk2tggk2tggk2tggk2tggk2tggfB25Xk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk)b\E`^rbA`
+l=0I`l?#^PK(UP,UCCLR$bn5@q2"J`gC9``l=L;`l?#46H7$7RqKa\St<sA``k:>`iu\O`l<!r`l>0
+=MT3Yi[^O2qQ$10e`jM5S`eB,S`l>'6`l?$&Yf=\/H@!TNYaEGM`i,iU`g1de`l>*]`l?#=WlE&XUh
+%KbU8#ZI``kmO`l=F(`l;5P`l?#Y29*Y%QBoP1;_,l-`g)S(``eOg`l:7\(rjRWON,;[OH@K%`l?$<
+`l?$<k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk)`if`a"Xg`l;:i?,jmJPK(
+V^A!b3TQt0aI`g`I;`l;P"`l=L;`l?#jT>nmjB4o6(St;On`bfS4`l:c,`l<"uWlE&9MT3ZU[^O2qQ
+$10e`eTu%`l>Eo`l>'[_oB^#BZA'3]"5o$R$a8\`i,iU`l=<``l>*JRE!7HWlE&uUnl#MU7u,:`f-J
+.`l<mn`l=L;S&WI.NgIc*QA<K"Pa%EP`f?)!`l=1)`l?#=OiGC/G/hPAOH@K%`l?$<`l?$<k2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tgMbfo53k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+bfo53k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk/<:?`5G#H>/\@?O%@4->`cnB`$Sm1`0Q_-`5H4u`5KT[?,X[LR@2"3BP>?
+&R@0J]`+WhS`5G)c`5KTsY/J83KS7:^XK9@Y`3cni`.4>H`5K!g`5J+5Zc'euN1n2.Y-,^]`1WdA`3
+-7d`5IXp`5KT:RDd%CWN!hSUSGcG`27Rn`/gRa`5G9,`5KT[QGg_'OI=&*PuP]?`06D'`5IRl`5Ik'
+`5KTUOMo'UFEGI>NfM&r`-ZjL`5KU4`5KU4k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk/<:?`5KS]O2SuT84^\;OH@E!`)]pW`0Q]e`5F*mRDd$L?,X\"R@2"3-r6DP`+<Gs`5J19`
+5G)\`5KTsY/J8sVl.JOA:/dC`3cni`5IYD`5K!<Lr@6<Zc'f#N/Y]nY-,^]`.jr'`5HhB`5JLKV8U<
+!Hc3k@WJ/:/Ei5hR`,]n:`5J=A`5G8UR`*.1?,X\"R@2"3/Q>]f`06D'`5GfA`5EQ[6,^^'OH@E!6:
+/W/NfH]L`/]kr`5KU4`5KU4k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg2
+Z0(32k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggfB25Xk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg2Z0(32ZEiWTk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t4Ek2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg7k2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg2k2tggZEiWTk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg[k2tggk2
+tggk2tggk2tggk2t(Rk0_T=k2tggk2tggk2tggk2tggk1/#Ek2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg7k2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk0(r6QBo_;@UbYHbEl\]bKH9?bKFR4bKJ)"C!4]C3
+2+O=SS?9jbFtWQbA_DSbKHTQFN_k'Us$s)K7h@j[^NWfbD`XJbKH9?bKIQ2bKJ)*V9@&n\sggcR_$)
+RbHS4o\')4gbKHf]^WXg/UW^j(Xf]diYHPO\bH\=qbKHN]bKI&\T?GEUVp!9,R@27ASt;"db;u??bK
+H3;bKHBES'0!$+j8'PRXiT)R$a8abCbGjbKFOabKG0CB$8B@bKJ)Pk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk0(rk84^qIbEeI;b8_MFbKH9?bKFR4SBK*H1LJ>KTqTZQ055.DbFt
+VCbKH]WbKJ'bFN_k'Us$s)?A$GEbAN9^bHJ+QbKFUebKIQ2]Z\Kp]tMV4Lks6tbIY:.bE/sObKI>Nb
+KJ)D^WXfPJtpN4Xf]diYHP:UbHZ)?bKI)mbKJ(UT?GEU@sZ>ARA.mJb<og`bFtW'bKH3;bKJ(u,0S/
+tR@27A."KLabF"[?bCc+HbKCb@bKJ(pQHRIpbKJ)Pk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk-;2Rk2tg2Z0(32k2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tgge`Q#Vk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2s1`k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tg2Z0(32ZKC<3k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggju^Gs_MsPl_
+EU7L_SV=n_SX/oO2Abu9ME=?Q'IWO_HCEd_SVR8_SV\-_SX0*CVms*Qs7GEGB^p@_KgFD_QBrB_SUt
+ZMo*?3JAT1?Za7NcM2?o&_QgA__SV_G_SX*SYcu!HXhqr9O/0Y0Xf[Dr_P!^A_SUYH_SW7MW5?DtHG
+[P9I!ifJQCl%2_ImMu_SVS'_SToIR)6_)7)HgXP*3]!6pu48_NL(NR_k,H_SSN%5Jk9sNP`QL3c)[M
+_SX1,k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggjuYZA_MsOX_SSNs_SV=:'>h
+VIO2AcN9H_3h_I-cg_O-_-_ST\1_SV\-CVmr(CRi8YFEGC:S"#na_L$Q4_SWFW_SX0eVS^35P/>)QZ
+a7Nc_MP\;_QfMs_SWR__SW7;QE\6.Xd[,DO13!C_PsNO_PF!E_SUYH_SX0gR_lpfVP_5IS7]XTT:_a
+m_ImML_SVS!_SX0WR)6^_6la(\P'Fj\_F/.U_L?q[R_k,H_SX/S&]2DENGQJKNK(fl_SX1,k2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggZKC<3
+k-;2Rk2tg2k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk.^!?k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk-;2Rk2rqRk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk.\Rlk2sFnk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2rqRk2tgg\`W&:k2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk1EOLf[usoUY+4;UY+5O-W\mPEM]MafQD=Zf\!67f[tLrY1VB#9\A"MY--F0fT)!EfWL"^f
+\!I6f[sYBRFp00_l;;@UqG@4_2Xo9fZD7Wf\!O:f\"isUY+5&a4T%f[C+Z>fYbVZfZ;.Yf\"*5f\!4
+8]%GYjZEi-8^:r7PfX&6CfQ_Ynf\!R<f\"iTW7]b'BP?&NO07-f4?S_XfR\Taf[uFQf\"iT=kMB'V5
+;hs,D4Y$fV;U%fScN"f\"j/k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk1EO.
+f\"hp:tXDDUSHJo-W\mPfVPFsf[sN1f[t@Wf\"iZY1VB#FEH0fY):lafWqg8fO'Dhf\!I6QIsi!JCr
+N,WN"P&]Y)nLfUA8]f\"<Nf[u_;f\"iOUY+5>a2ciU[C+T<fYaiDf\"Hnf[?.YT%M],]%GZf_84dV[
+?]CsfY"lLfQ`I<f\!R6Y1VB?YLqL[BP?&NY-+q3YWQIKf[uI"f\!+"f\"hZ=kMBZV1dLR,GV$dfI9t
+Uf[usof\"j/k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg_SX1Pk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2t1CeE5oUk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk/,!tk2sS!k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tgUk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k.g'@k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2k]O0'23VYd!6NHnI&5jfs6qjlL$YjlM)G7ciaA\
+E2i6Hb8D$\<LLbjh&.:jlMG4jlO+dT]P:,^?+J<WHdOdjj;B9jenR/jlOapjlNu&f&c#/U8$c2eC<U
+A[C+NGjl>4AjlOk9jlPU/Z/t)od,jBNa2d<'jf=^/jibijjlMtbjlOS"_<'dLTu#jPSQ<Jdjg_h^ja
+:%hjlN;6jlPU3[H6L^5-sA4[$9\6?a@!!jd7tcjlN_NjlPT72!*i\k2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2k]OH[Fl9Yd!6NjfkuNj^*@`jlNeRjlPTU\)l_]8W2]l]=[1djcl
+"kjlO*djlMu$jlPTsT]P:L^:r^jWN#"@jj8>8jf-ADjlNnX[H6N$f&c#T^t@c1eA:8.jj_fAg#_)Ij
+lOk9jlPUGg#_>!_856pa2c6^ji,4#jlN)IjlMuRalVX#_<'e?TqUT0SX&<uj]\8;jh&.:jlN;6\)l_
+Z8*/joZa8cTPa%Eojg)2RjlMksjlN_4jlPU.YiY!.k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tgLbN@sLk0E,Ok2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg[k2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tgLk2tgg`Pq!%k2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggcH
+bS7k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tgLk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk&&]#TqP<6e
+tJegf%+\Tf%-RiU=Rn6UXn#I@=-SVW2QZGeqf.5f%-d?f%,\7XObs3Ph+F:XK:"(Q^=o,f!:=!f%.[
+Rf%,5CU=Ro0^=LldYK,5FeuuL4f#>VZf%.[Rf%/=!\(9-H_84^R]Y)hH_83t=euu9ef%,S[f%/Eb][
+jj(Ze!^YT"3G'f!;U4ekVBkf%-h"f%-7WXObt#B8b?lVP_qqeqA_-eto4of%,_9f%/DPLXt%MTqU&g
+K7hb+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk+UAWekf2oetJe2f%*Wjf%/
+DJ:Y+*lUSHDk@:@a<eu3K;eo@dmf%+k^f%/ERXObs3MQbU^XG#0Ueuu:.eod"5f%.[Rf%/E/]%5HHU
+nlSma2cc^euu:.f#>V3f%.%D`R`VL\(9-H_84^RY--@,f"n67f%.@@f%-=[f%/Eb]YD45]"6JDH?sn
+gf!;U4ekU@if%-gDf%/E?XObtRB4ofHVP_qqel\a!etlVVf%-UkUXn!r<S#`pTi0Im;PBf8k2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2s\Gk2tgOcK=9Ok2tggk2tggk2tggk2t
+ggk2tggk2tggio]Cck2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgOcK=9Ok0E,Ok2tggk2tggk2tggk2tggk2tgg
+eE5oUk2tggk2tggk2tggk2tggk2tgRk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tgOk2tggcHbS7k2tggk2tggk2tggk2tg`k2tgUeE5oUk2>1[k2
+tggk2tggk2tggk2tgRdH9TRk2POck2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk&mZ&hVN?rhVP62WSZKSF][GVWdWa\hQ*^6hMdDPhVPK@hVR+O[,0ZDQ'L4_['\]HhOgFsh
+R'YShVN1[hVR+`U>FbKaiWDrWiFq4hQsQFhQG2NhVQK#hVR,6c/.<jVTmuSgWeU3hT<mrhT<m>hVPc
+P]&);EX5;^K^qeg``5LNhhP4uFhVP0.hVPiThVR+`U>Fb3Z'F2&QaF-VhN*`ShQF#ahVOK]hVR+kPM
+Y0QX/k+6N/ZWMhPmL2hN!Vqk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2*):
+hVKP)FPblRWSZLgWN"b21c4(GhQ*^6hVO3phVPJ1F5Gc\[,0Zr=-_Y!['YYGhOh:6hVN%)hVP`N\),
+tbU>Fb`T<-o+WkuX0hNjVehVQT)hVQK#d,*X(\$k/Mc->,%[EZtQhT<mrhVQ]/hVQMH]&);ZX5;^iW
+PIBI`-II$hSR.HhVN(.hVPiT]&);<[C+lJ:Nt[PhR'ZHhFN^ahVPDUhVOKuXPVeo3Kr=VX/k+6N/Xa
+mhCL3_hVP62k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk0qfAk2t[_k2tggk2tggk2tggio]C]i9'1ak2tggk2tggk2tgVk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+t[_io]Ccf&l,Wk25=`io]Cck2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2+riFl(uS<SlThWN"b2hI&1shQ!TUhVN"JhVPGRD
+Vj6SYd!!@I[K!KhQVRfhOLs[hVNp=hVR+r[,0Z(PdfN+PEXk[hT<mrhQ!TQhVQ8lhVR,3cedO*^;&O
+]c->+tfXS]QhV5lXf\X`lhVR,!\DH)aae7MIX1@*DhNaA_hSd@NhVOH[W8?CI_;=%.]"6bTH$S9'hQ
+a?BhVNC^hVPG[hVR+lY28#QDN`l5XfXJ;hMnSmhHjMphVP62hVR*fk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2+soWSZKRF=,l$WMt:%hI*>>hVO!AhVP<6X5;]N8)E+ZYa+)%I^I
+tghO'\ehVPWHhVNp=\),uKSDN,Z\$t5NU6C>ghT<mrhVP9LhVQ,dS_i5LcedO8^;&O]c+h$GfXSuYh
+VQ_mf\X`l]&);RVUF>X_SY0d^qdbBhPYhZhVQ2hhVR,+_VX.PY28$l]"6bTH$QgShQ`1!hVPWHhVOT
+c:Yss2Y*@f"DQM^OhN3iUhQ*^6hVMQkhVP62L#1Zbk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggf&l,Wk1A5Ik2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk0qfAk2t:Ik2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tLUk2tggfB25Xk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk#:$hEi,_ggETVNgY8U&gY7
+=3gY:J\BA;0pW2SJ*9TbIlgT@U4gY8.$gY8iPFPGQTZ.n$fS=J?gZ*E'<gU+?BgY7^`gY9`f`nT7[]
+A))XUT`G,]ZeUSgSVa?gY9`_g"F3Xb1k[a_qWr#`l?cfV9-j6gW#`;gY9ETgY7CNWS?1D_;!`!XM<N
+E^5\-,gUFZHgY7jQgY:JcG2(c>Z.n$f9Qf+EX/i;UgPh*GgY8`EgY7^dW8$&SJqDb3VP`,&k2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk#:$hgSUk&gJUpIgY8TWgY4ZaVVBjYB4ouR
+W2SJ*gN9OOgT>\SgY9!<gY:J)FPGQTZ%C`b['\TBR>$@LgU+>pgY80cgY:K!ZJ4-3^VAOXYHQ^8gW[
+mrgSUjmgY9QZg"G-&b1k[a_qEf!`kU9_gX"4#gP22egY9ETgY:JPS(l]6S=J?g^VAOXgPq3IgUFYXg
+Y6qXgY:JKG2(cVZ*E'<F`je?gT,5HgSq0OgY4i,gY:J]W8$(]=/Oa,F[Y!=k2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+i9'1_k2tggfB25Xhr!>Rk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk1\t[k2tggk2tggk2tggio9+_i9'1ak2tggk2
+tggk25(Yk2s_)k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk,PH,c9;^JcH_i#FjA:#REj*$1,@/#R[S`Oc=<?hcH_55cH`,WcHa^I50hHITo%(?Unjg3c
+?WgCcD783cH^r]Vp<SbL<e)i[COT.U5-Y3cF11,cHa2>cH`r0Ra03l^!=p*VS1:#bf.QHcFLL2cH_Q
+#cH`u2T?b`>F3`(VUO1;3['[3cc@fHJcH`\VcH^R4Wm8nL9?ti.TqTcWC-eZ@cCfd7cH`#QcHa]k1X
+=::S^,O+S"%^KBFPErcC(*Gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk,NiX
+cH_iGcHa^XFjA:#REj+'G+$Y$c@:>hcC:;mcH_6%cH`,WJ^2PoUnl;]M2BO'cD78]cB"%3cH]^XcHa
+_5Vp<SbVP_Ya[C+<*U8Fg5cAJR!cHa2>cHa_F_9U?>O0?jS]tM_:cGdcJcFLK;cH`2[cHa_-T?b`dY
+cuEuUSH,[cEq<2cBbcAcH_N5cHa_8Wm8nLNMXqGTngq=cD78]c@UY"cH`#QcHa^eSBfD`H@!l^S"#n
+mc=gn:cC()2k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgQk2tgg
+io9+_k2tggk2tggk2tggk2t[_k2tggc->D5k2b[ek2tggk2tggk2tggk2tgMbi\'Mk0rJTk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2POck2tggk2
+tggk2tggk2tggk2tggc0"0Nk2tggk2tggk2tggk2tggk2tgMk2tgge'mIAk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggi9'1ak2tggk2tggk2tggk2tggk2tggk2tgge'mIAk2shKk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk/sNs:WggEQ'KM76:/i;Pa%ETb#;6(b0#uUb0%knQcdHW?HUF5S:o
+&-b%dQkb+*'6b0$?Kb0"mNG07t"T6Iu^U8#fQb(>5fb-\Oub0$!Ob0%kqR``da]"6&,WN"%_\[e-Nb
+*ffNb0$TYb0%l6[*$O^S\E7h[#`APb,h\eb)(shb0$rmb0%kVXieefJm-=>VP_MYb&VOFb+5)7b0"C
+ib0%k8@EQ`]R[VCA='*Peb*bfCb*J?Zb/uh/b0%kkk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk/thtJ]c-#Q'KM7EC.gjb'A9Tb0$!7b0#-\b0%knQcdHt?CT*[S:lR<b+G<Kb(PF<
+b0$?Kb0%l%L<@Z]S"%+6U8#fQb*IM!b-\%Cb0$igXieecWQNAp]"6&,WP#mdb-J=qb0%9*b0$Z[b0%
+l6R``dq^:qb4TqQ_Rb,h\eb*Imib0$rLO35VIXief/PZl5PVMgATb&X/tb0#3`b0$?KT?><-@EQa8R
+WcirR$a8`b%PJ2b0$$9b/ui3Q-.6Wk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk/
+lcJk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tgF`TH=Fk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgNc0"0Nk/lcJk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2POck2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tgFk2tggcHbS7k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk0(rkVP_P[bB&umbBeKXbKH
+3;bKG?`I`op$QcmRq1768.S:lR=bFP2pbKG`4bKJ(YMTa2!Ls*ubTV0KOTqQ\RbEQY_bKH<AbKI?&[
+`cjkVOYiQZ_bjgbIkL2bI=t(a32'*bKJ(u]$&:=Y05#3[^OB&XK8MHbI4jIbKFFubKJ(mPKV.SZ*DK
+qQ^>n=bES77b>Y=^bKGTnbKJ)#T$,<35G?9DS9`<$bF>!Eb@kQ^bKH?CbKJ(rR*3Z^@UdO(k2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk3gF9,#QP,bEeI;b8hULbKH3;:Wpq1QHRI<
+.8\42R$c(?bCkPlbKE1cbKHTQbKI"_MTa2:LjmOjTV/+(bA)7EbG:r0bKG<cbKJ);[`ck;YHQ-mS"%
+UEbIkL2bFuDYbKIJYQcmR`]$&9MKW`MA[^MmQbH/J%bKG9sbKI#ibKJ(:PKV.mZ&QrMQ`mU9b?fqHb
+GV89bKES5U<C`ODp->ITqTZQ0R7rebF;,IbKFRebKC_>B$8AbR*3[r,%Aa=k2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tgHk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk0<&Nk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk02'3k2se-k2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggc-=Mqk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2se-al_aJk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg?k2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgXfB25Xk2tggk2tggk0<&Nk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgJk2tgMbfo53k2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk*g&.
+bGM.pbKEJCbKJ(X-d0]!QBo_;8!_?AbC>#bb?8e'bKGQ&50M-?MTa1_EM:S!R@27AbFtWQbKFU6bKH
+TBbKJ))Us$rQSp\`)[^N*WbDi^KbHn=QbKIQ2bKJ(iM7h$T\tI6iS%?edbI+b$bI4jfbKHT:^WXg/Q
+-7@*Xf]diRpojMbH\=qbKG^FbKH$1bKJ),Vp!9,9higSSpG_+b@mTmbA;!2bKHBEB?SIe(!FeDRV'a
+dR$a8ab@581k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk3hZ\bKDDobKH3;QH
+RI#I`opX)&^W@G*\H;bC>#bbKFjDbKJ(^Fj%ru8'B*!TqTZQR@0JdbFqt[bKH]WbKG!jP0;%EUj^G0
+St=-KbCZY8bHJ+mbKI#ibKIQ2N6BD9^!"UBJ"Y!.]"5JrbI+b"bKI>AbKJ)D^WXfGQ-7@oXf]dibHn
+OubCsBJbKI)mbKH$1OitqG=BNbiLn`)9bBeKXbFtW'bKF^<bKJ'L*QuWoRENdsAnK60bEs[#b@6d'k
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk.e[nk2sClk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tgai8Eb[k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk/,!tk2s(Zk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tg?k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggi9'1ak2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk/-9Ck2s(Zk2tggZ0(32k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk/V>ba2c5pU;t<#P*3l+)aMHaa-)V+THSW-a2`!ia2c5JPfLg'?\Q
+P@R@2+9a-`F<a-gd]a2aaAS]Ac`P/kV6STVunQ_;C>a*W0Ra2bKka2b!Oa2c6(IE0Br\@BSmNg66Wa
+0rFsa.oE<a2c,oa2c6+ZH(#+S"%I=ZEhNka/Q&Ya(LEta2b<aXiJJBNlT2?K7h4bM5-ida$b6oa2aX
+;a2`"4a2c4C:WLMrQ^>b5(L`TLa-K'4a'b-ra2_mZk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk/X$`lGpr&=i\S'P*3l+5X7TTa-)V+TV.I2a2`O#9ZP2<PfLhb?^SmSR?_s9a.8dA
+a2`%6a2c5kNlT1^FN;GBF`kaFTV.sua*W0Ra2bKda2a1?X2i8BI=9/V\@BSm]p6.Ka0qb`a2bWsa2a
+7:UrUN]ZH(#+K"K(DR[BJ_a/Q&;a2a4#a2c5^ON5CgX2i9$K7h4ba.oEMa)%?fa2_mqa2aaAS]AcH:
+RK2CQXe(Va-Dq1a$N*Za2aF/a2c4ck2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggZ0(32Z*EHRk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk/"mrk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggfB25Xk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggZ*EHRk2rtTk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk/YNjEH0%>U8#]K`u>u<a-)
+U3a2a@+a2c5H,0.`fPEX&-.[7uoa-;h/a-i?`a2`$sa2c5gMoWkXA=^c]QXn.Wa.8dAa)bmda2asFS
+B&[UZH("EEH0%>YHQ!ea+UtCa2b'8a2bWsa2c5DG/qYA`2(GoZEgdVa.mUoa0N"Va2a0Na2c5`BZJ0
+6Xf]XaO]TTDa/Z/[a)e#Na2`%61<7G(R`EHL-_8;uQt0aJa-W.5a2]#6a2aL3a2c56BZJ06k2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk/YNjdaH1VG'8JXa-(;[a2`LPa2a@+P/kUh
+P/kV`-@j.WPa%EQa-;h/a2aT9a2a.0S]Ad/MoWlYSXmgAQ^=Aca.872a2ajGa2b`\SB&[UZH(#+N2t
+">YEbBna1/Y"[)]&@a2bWsR`EI;[^O5sUnl&Oa0N"ka.oEMa2bKPa2b0YWQ3&BP/kV`Xf]XaOfPP'a
+%_;Ca2asMa2c5;T#\m?.EBKLBV!2aa(/`$a-W.5a2_VRa2aKT@`QNRPa'5/k2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk.9^;k2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t:Ik2tggk2tggk2tggk2tggk2t.A
+k2t.Tk2tggk2tggk2tggk2tggk2POck2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tg2Z0(32k-=(2k2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk.9^;k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk1A5Ik2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tg2Z0(32Z*EHRk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgge`Q#Vk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggZ*EHRk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk.%q2
+\;?'P\@@cf\@=POK=JEO3OlSOK7g\D5!Bal\:dVe\@@6H\@>1)/@`3JMn$:,=cU#%Mdobs\;lTZ\@?
+-_\@@QZ?F[L^Ogqp2=')oAUSFTo\7fQc\@@NA\@B&JWOTHbHapSqVl.&7I!hj%\@.F-\@A</\@@QZD
+7I*NUU[hDR[Uar\:e+s\=T;%\@?R(\@A#10Y"WWPdn65:/8=/Mi/I_\4hpC\@=mn\@B&)Lq'rX4h/#
+3LH2lS\:oXHk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk.%q2\;=PH\@?m4\@
+B&$K=JF,CD+.eK7g\D\:]FD\:B+>\@@6H\@B%AMR^0SI!iH6NfLWZ\:R_j\;lT!\@?.6\@B&(LUajV
+Ocd/`F]Z)_\;?'P\7hD&\@@NX\@B&JWOTHuH`OZdVh^&;\>Q77\=T::\@A</\@B&MXLPcpL5*4JR[U
+ar\;"7u\=S"m\@A'!S@H(DC:Ld<Pa&\f:62op\5ubA\@@QZ\@>QR\@B&)<4KG$L5*4J;c@/8\:oXHk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tgPcfXBPk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tgPcd1b9k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk-D:uZEh0W]s=r'NO#jqA2:HrHtfmlZ@%&*ZEe_"ZEen,IBp.rJ$Q
+A4FEFgoKS5#aZ@78.ZEf.+ZEclRLU+4=KX.nhLPN1@CMSg5Z;u%PZEg!jZEf(6K!M\NR^06)?D=a2U
+k=<*ZD!ttZEf:8ZEgcXQ*R]cS?fH+M2AODS=G&6Z?\R<ZEeXsZEfg`Qa3o-A?rMHPa&JZZAssNZ;af
+/ZEf.:ZEdD-LU+4<:9q12JqC;691qp`Z@RR$ZEd)Ok2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk-D:uZEgco]s=r'NO#jqI=8E,&.ge+Z@%$hZEe_'ZEgbL40l/AIt+c0,]p>tZ@koW
+Z@7S7ZEcemZEgckLU+3oKT!.ALJ+qYZAOOFZ;t"IZEg!jZEgcfQ*R]$@q2gMU8"s!Z<MseZCuD`ZEf
+:[ZEgcXQ*R]cS8bd>M2A+8Z;uF[ZBLK9ZEc>nZEgd&Qa3o-Q'JY\0j1ffZAssNZ4g2nZEf-O7'a+RL
+U+2t&PfX;JqC;6Z:f_RZEcGLZEeq.k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgge`Q#Vk2tggk2tggk2tggk2tggk2tgg
+k2tggk1AbXk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tC
+[k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk1AbXk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg[k2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk02uMk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk-MD#Za7!E^1ajZZ]BI>ZT3K@Za4t(Za6ue
+I^?@C'sk6QIrVg$5_+BkZ[@-TZa5C@Za6u%M6jOCIt+f2M2ARFZU7*dZ\aOFZa5ULZa6uc>-kQ,St<
+9p>ZS2;Z[7%eR;&ImZa5X#Za7!4LpOF1?D=d4PEW>ZZ_!bpZ]/$fZa66LZa7!'Q*[f3C+?QrR@.WmZ
+T+;XZ^,'0Za5^RZa6u+'XP-#L/P@a8;X[ZZVXK)Z\*m_Za3A:J[;\7::%9"k2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk-MD#Za7!E^:pq[ZQFP#Z[R@PZa4t(HF'r,'XP,`IX\W0)f
+]l(Z[dS4Za5%5Za5B7Za6upM6jOpIt+f2M2=I'Z]'jLZVNl*Za5ULN3fj<I'^/c?='tEH^C)*Z[7&*
+Za6I'Za5XNVR*UGD6pRTU8#!#PEW8XZ^t=+Za6R-Za3/JHF'rCQ*[g'C21)]R3cFNZ^7#bZa4+MZa5
+^R-F:$ZMR0Xq&5oj@M2@(qZVXK)Za59.Za546J[;[X::%:5k2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk-;1r
+Z*CR=Z"f?)Z*B7HZ*AOuGd4N$3B=@LI!i3(Z#4HaZ$h&*Z*AG#Z*CQ#6F!eJK<_\dJ:Oo0K7c%dZ%n
+*iZ*?l>Z*CQhLU"+.GD`Z1<)g--Z(.>hYu#PIZ*B^bPHhBeU9Ut,Di(a(TV/QpZ%J^SZ*&Y/Z*BghZ
+*CQXJ[)JMS6W>(@UcUIZ!^tEZ'UfDZ*@\EZ*CQu?Epb<NK(3J9heQkZ%Re8Yu4JTZ*AmIZ*CQbJ[)I
+Q91uOpJ:Oo0k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk-;1rZ*CR=Z&asqZ*
+B6gZ*CQ]I'Kr]3B=@LI!i3(Yrd?<Z$g^\Z*Ab,I^-.E6F!eJK71#0:5=V0Yr+DDZ*B(>Z*?klZ*CQU
+<3`^5MMe[D<)cVtZ(.>hYud3UZ*Aji;NnA[U9Uu.DkjSBTS$7LZ(RbpZ*Ak2Z*BghGd4MtGHnEX>[4
+P=PEV38Z!^tEZ*BX)Z*?faQ*IT%?Epc?NK(3J9hgGKZ%PoXZ*B(>Z*?V^6F!eHJ[)Jb97O4O9MA-bk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggaQDXIk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tgge`Q#Vk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgVe^`gEk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk,tkiY-+q1Y-+qTdB9X/M+=_OBmG!,Y%h^SY'>29Y-)__Y-+pQCTahCH[DouG^-Bo
+Y(._!Y%2'qY-*:eB!/:hK<DA!FEF[gK7cFlY(h\6Y-)JQY-+.ZY-+pQOfkji9ma%GSt;OVY(MA0Y+;
++sY-*AISZ],NLT[e_R$b%ZEH._UY*`b&Y-*hHY-'9`@BQbsPHM'k?'2:mOBc%nY)8+>Y-(StY-*;*9
+WkNoK<DA[91uFjIXZaKY")!bY-*2$k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk,tkiY-+q1Y-+qTdF#,"+@iT;Y'G;qXq5?NY-&O'Y-)_hH*4:g3NfNfH[Dou.X6HGY(//YY-*D0Y-
++o]B!/:hK<DA[LPN%8Y!G=UY(h\6Y-(-+Y-+-tA$2tsOcb`e9jWpaY+D5fY$doqY-(Z9Y-+puSZ]+l
+E3?@HQrL5kY+hYnXta'^Y-*hHY-+p9QEIBS1L%#bOccfLXqb3EY)8*8Y-&h!Y-+oC7]rnHK7g>0)*"
+e%Y'rsFY'bVEY-*2$k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t[ck2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggaQDXIk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tg\k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tgge`Q#Vk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg\k2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnbfm#aW.]i&W2MLnW2OGj
+W2QY9F/Z#n1DHddFEAb+W'#4$W-Tm4W2P&iW2QXL/Z>VHHRbtmIX\5oW&?T5W.'2$W2MabJZ,MA9rP
+"SPEVrD<E2GcW/s<DW2Q,PW2O07W2QY]Q`-j]>*l1dVHu3[W0<FDW)ZhKW2PoD/?#L?MQ!JP9dQa:N
+fK-uW)G"@W2Nc-W2MY.KW(h@8Z8SdH[D]i6UQ=$W-Un2W2OrcW2OoaGGqHak2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnbfn;0W-*6]W2OcYW2OHG&ZDXLF/Z%91N
+TLnW,6CMW-*6]W2No?W2P&N@&U#QI]03DBP=?CIXYb)W&?SdW2O!-W2P8uJZ,M`CoF;2PEVrDW/Q\6
+W,m$YW2Q,PW2P5US#E9PFEFI[Q^=YLF`fXAW0<EPW2N^dW2QY%?`9o\MQ!JP>U?>IW/b&[W)JY6W2N
+d!W2PB&KW(hB)1ST`HUk$5W.'2oW's-DW2OrcW2QY=GGqHak2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk/lcJk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnW2
+RqaW2PB&8Z8S&F/Z%91,>f,F)uE$W#TlWW2LpcW2Na>Ff;5]/Z>VHHT%h$CMSBtW$*^jW2P/oW2M@&
+@Ap,R2lN[RJUsbu4[VT8W0<EHW2OWnW2Pe\=fA9eRAd'_6[,K-W0^&RW+MBpW2MCOW2PoDPGkE/BUl
+$"P>%pR<f2d5W$tVLW2P`:W2QXsN2W[";lHXnKS6;&W%q#EW-^s%W2N::W2P#gHDmceG^-0cGB^!ak
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnW2RqaW2QYJ8Z8S
+/F*":Y1,<pLW,-:KW#Tl"W2LpcW2QY;Ff;5j/UF@oBP=?CW.'2oW%9JNW2P/N?)X]RJuGV[2`I\6JU
+sbuW'`qNW2Ol@W2PZ6W2QXt=fA9eR<>I,=dtnZW+KY?W0`j;W2Nd!VPpGW?`9p%S=HOV?VIDsW/?J2
+W2Pf>W2Nm'8uS\IN2W[";cBWnKMYLDW%rk$W2N3VW2P/oI]02kHDmd@G^-0cGB\80k2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tgQk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tgga6)OHk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2t%Qk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgHa6)OHk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk,G>ZWMukrWMukrWMul@bc.S@KS6>(1N[`<WGQLOWMsr[WMrl)$E:"H>,eL#*-S<\
+B4kkVWI&ukWMq1mWMt5J>,eKMI]9<GC,DohIXYh,WA9%(WMsNCWMu)FPGtN[5)Q>=O_q(s=db\WWG6
+0'WMu8PWMsAKR&R'^EiH%;PEVuFWG*i]WKWOFWMtf6WMs---)ml)O,p9>)B,TSMcWuZWD&#"WMrN`W
+MukEI&X)oI]9<GH?uQiWHicgWHWQ1k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk,G>ZWMukrWMukrWMul@bfm&cKS6>(WH<6]WGQKhWMsr[WMuk=FK)5I>$@o)G'8&.P@o3@WI$$AWM
+t>qWMuk#>,eKMIPe%'C20`IW@VSZWI]VOWMsNCB;qko6)gi(N/Xa88o:Q,WL90RWMsX%WMu72WMuka
+R&R&<EcS.YPESG7WG.p&W?EElWMtf6MlE[\>cF^%O!:R&=H'5YWE30#WMtT*WMrO?J#TDpI&X)oIX\
+8qH?sn:WHicgWMt)ck2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggd*Uq;k2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggdH9TRk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tgTk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggdH9TRk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnW2QYnbfn;0W.]i&W2OQM
+W2OcY,,hG]F/Z%9-X!CHFEDW'W+'nJW2M3sW2P&iH`3kn?)X^#HSMItAnHLjW&6H2W2P/oW2O6;JZ,
+N#4/f*VPEVrD/SJgrW0!+>W2OBtW2Q1W8Z8SSQ`-j]@q2I9VP[:jW0<F/W2NI)W2PoDPGkE\<iDsq8
+P,kZW/cn:W(gBmW2PW4W2NOGKW(i!It+DqH[D]iIXZaEW-Wc9W2OrcW2QY=k2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnW2QYnW6EJaW.]hWW2OcYW2QX="/r/>F*
+":Y-Zc5bW*q?XW-*6*W2M3sW2QYA>,\AMIX\5o@kjp\W.'2oW&6GaW2P.uW2QYGJZ,M^4"@2-PEVqs
+JjPEpW/tC:W2Q,PW2QXd8Z8SSQXctm7@0sOW)HWnW2PoDW2NHdW2QYY8>rJEMMe@28P,kZW/cn:W(i
+50W2Ncf(T=9cKW(iJIt+DqH[D]iW.'2oW2P#gW2OrcW2QY=k2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnW2
+QYnW2RqaW2QYJKW(hjF*":Y=]q]%F)uE$W*j"@W2OebW2QY;Ff;6A=]q]%H[D]iW+LLWW-_o[W2P/o
+W2QY*A>lGUIPIe"B7["[W#fBGW0<F/H)OqOW2QX:>c=T3R@1"PAnJ!?W0`jLW+0>(W2QS5W2QYYPGk
+EnBP=?CPEVrDW/?J2W2Ns+W2P`:W2QXs=K&0VMi4O4KS6;&W.0;qW-`l<W2P/oI]02kHDmd@G^-0ck
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnW2QYnW2Rqabc%I
+nKW(iJF*":Y=]nn+W,m$YW2OcYW2LR\-E*kcFf;7;,C6;eHS@.PW.'2oW2M=$W2P/o0;tg[JuGWH.l
+"!$JUrBNW#fBGW2LanH$LfsN2WZs25mIPR@1"P-:aQ(W0]uPW2Q&LW2M7H<2caZPGkFYS=HOV*CWDq
+W/?J2W2LM;W2P_G7]<8EN/X^6Mi4O4KS5#WW.0;qW2P&iW2QYDI]02kHDmd@G^-0ck2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2t@Zk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t"9k2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggio]Cck
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t"9k2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk,G>ZWMukrWMukrWMukrWMul@bfm&cKS6>(WH<6]WH2IHWMsr[WMujC(oaKVFEFL]
+,Bg&cH8$YEWI&u=WMqX.WMukD-`O'uIX\8q2DD,0WIB;qW@KKMWMri+WMuk\PGtN1.2&VZOccWBWBQ
+`LWLHF%WMu8PWMujd*iZ-9E\+2hPEVuFWCeA6WKWNQWMr!\WMujc(9+9oO,p9>N/Xa8WJc\6WMtT*W
+MtAsWMukEI&X)oI]9<GWMukrWMukrk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk,G>ZWMukrWMukrWMukrWMukrbfm&cKS5#XWH<6]WF0+AWMsr[=/i/FFK)7=<)firG'8&.WF@0QWM
+t5QWMqY%I]9;Q?E'p'IX\8qBJ>%;WIA$MWMtH"WMrir%B6=jPGtO\&r`fh>[1O5WL90RWMsMRWMu7p
+A#ZFsR&R'aEcS.YPET@QWG*QUWMu(gWMtf6MlE[\>cF^%O,p9>N/W^pWJc\6WMtT*WMtAsJ#TDpI&X
+*EWMukrWMukrWMukrk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tg5['\uXk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tgg['\uXk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tgg[-$N5k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnW2QYnW2QYnW6EJaW2PB&W2OcYW2QY9=/
+`'rF*":Y;cBWnW,sMfW*OOgW2Lml?`9oMH`3mA@=G/RHS-qLW.'2oW2M7RW2P/oW2QYGJZ,NG*Zh8Y
+PEV3/W$YWFW2M:"W2O9qRAd&L5cCW[QUIdN@q2I9W)ZirW2PoDW2Ln4BW.kn5cCW[MMe@2OH>R&W/c
+n:W2PZ6W2PW4Ml<SQW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnW2QYnW2QYnW6EJaW2PB&W2OcYF/Z$Y=')?!F&Js8;fd#
+YW*CeuW2Oi]W2QXHHDmch?)X^#IX\5oW%K^$W.'2!W2P<"W2NEb)lT]dJUsbu*Zh8YW*`o1W$[I^W2
+M:"W2QY_RAd&L5b"^N@q2I9Q^=&;W,bn8W2PneW2QYbS>`An5SC#oMMe@2W0!+>W/cmuW2PZ6W2QYQ
+Ml<SQW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk-X:5k2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnW2
+QYnW2QYnW2RqaW2QYJKW(hjF*":YF)t6XW,m$YW2Np)W2Of[W2QX8Ff;7;>[45+H[D]iW+7KYW-`km
+W2P/oI]02B;5gFlIX\5o)[:klW)-<6G'9(5W2Nf,W2QYVOJo+VR@1"PAnGYRW0`jLW2L]&W2QS5EN#
+h"PGkFYBH=%MPEVrDW/?J2W2Pf>W2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk,>5WW2QYnW2QYnW2QYnW2QYnW2Rq
+abc%InKW(iJF*":YW,m$YW,m$YW2NpAW2OfA>,\BBF`jX]>[45+H[@BDW+:@+W2Le>W2QYDI]02B;5
+gFl"pV$)W.BMuW)-;eW2PoDW2NgWN2WZ^$='O.R@1"PW+MNtW0\2]W2Q&LW2QY7EN#h"P<u4HBP=?C
+PEV3/W/?IiW2Pf>W2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnW2QYnk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg[-$N5k2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk,G>ZWMukrWMukrWMukrWMukrWMukrbfm&cKS5#XWH<6(WMsr[WMsr[F/c-A=fJC"FB>H@WHNHaW@
+fg&WMt5GWMq9oI]9;n(_WgIIX\8q)]K-`WIB:gWMtH"WMuj=#^<83PGtO\-B+q'WE]P)WL90BWMqig
+WMu8PA#ZFjR$akPE`/m9WKWOFWL]TZWMukrWMukrWMukrWMukrWMukrWMukrWMukrWMukrWMukrWMu
+krWMukrWMukrWMukrk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk,G>ZWMukrW
+MukrWMukrWMukrWMukrbfm&cWJ#r(WMsu]WMsr[WMuk"=fJB'FEFL]=')B#WHNHaWF0+[WMt5G=/i0
+JI]9<G8kQ(^IX\8qWIf`$WMrK^WMtH"WMujo#cXee/RPKVN/W^pWE`]-WMu;RWMsO"S#NAsA#ZH,R$
+akPEcS.YWKWOFWMukrWMukrWMukrWMukrWMukrWMukrWMukrWMukrWMukrWMukrWMukrWMukrWMukr
+WMukrk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tgPcd1b9k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggcfXBPk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk./%5\[f8]\[f8]\[f8]\[f8]\[f8]\_PuN\[drh\[dBHKX
+nXHKXnY(KS6nHB4kkf\V5`P\[cO2\[dT1B=YR2Mn-C/?=(1Q\VjP"\W;f^\[c$Q\[dc^.(Qlp?BVk0
+(h'tcUnjfs\S,Yi\[eCq\[f8NWk#ZaGIb8pW2R8;\TFd\\[f8]\[f8]\[f8]\[f8]\[f8]\[f8]\[f
+8]\[f8]\[f8]\[f8]\[f8]\[f8]\[f8]\[f8]\[f8]\[f8]k2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk./%5\[f8]\[f8]\[f8]\[f8]\[f8]\_Puq\[drh\[f8(KXnXHKS6nHKS6n
+H\S$T+\[cHi\[dHL\[f7`B=YR2-n)X:O,pi^\K3'-\W;e"\[`YcP.A+O.(Qn!P*3A2(bWA0\YQ%3\[
+e9%\[`D9\[f8NWk#Y\7B<u0W("8-\[f8]\[f8]\[f8]\[f8]\[f8]\[f8]\[f8]\[f8]\[f8]\[f8]
+\[f8]\[f8]\[f8]\[f8]\[f8]\[f8]\[f8]k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg[-$N5k2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2
+tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tgg
+k2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2t
+ggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk
+2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tggk2tg
+gk2tgg~>
+InterpretLevel1 not {
+  grestore
+} if
+grestore
+%%%%EndImage
+% End plot #1
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+546 4871 N
+546 280 L
+5500 0 V
+0 4591 V
+-5500 0 V
+Z stroke
+stroke gsave	%% draw gray scale smooth box
+maxcolors 0 gt {/imax maxcolors def} {/imax 1024 def} ifelse
+6183 280 translate 275 4591 scale 0 setlinewidth
+/ystep 1 imax div def /y0 0 def /ii 0 def
+{ 0.99999 y0 sub g 0 y0 N 1 0 V 0 ystep V -1 0 f
+/y0 y0 ystep add def /ii ii 1 add def
+ii imax ge {exit} if } loop
+grestore 0 setgray
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 280 N
+275 0 V
+0 4591 V
+-275 0 V
+0 -4591 V
+Z stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+6458 280 M
+-63 0 V
+stroke
+6542 280 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-1)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 280 M
+63 0 V
+212 459 R
+-63 0 V
+stroke
+6542 739 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 739 M
+63 0 V
+212 459 R
+-63 0 V
+stroke
+6542 1198 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 1198 M
+63 0 V
+212 459 R
+-63 0 V
+stroke
+6542 1657 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 2)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 1657 M
+63 0 V
+212 459 R
+-63 0 V
+stroke
+6542 2116 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 3)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 2116 M
+63 0 V
+212 459 R
+-63 0 V
+stroke
+6542 2575 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 4)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 2575 M
+63 0 V
+212 459 R
+-63 0 V
+stroke
+6542 3034 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 5)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 3034 M
+63 0 V
+212 459 R
+-63 0 V
+stroke
+6542 3493 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 6)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 3493 M
+63 0 V
+212 459 R
+-63 0 V
+stroke
+6542 3952 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 7)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 3952 M
+63 0 V
+212 459 R
+-63 0 V
+stroke
+6542 4411 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 8)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 4411 M
+63 0 V
+212 460 R
+-63 0 V
+stroke
+6542 4871 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 9)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 4871 M
+63 0 V
+1.000 UP
+stroke
+LTb
+LCb setrgbcolor
+grestore % colour palette end
+stroke
+grestore
+end
+showpage
+%%Trailer
+%%DocumentFonts: Helvetica
+%%Pages: 1

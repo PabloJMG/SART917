@@ -1,0 +1,15 @@
+#Anchura de la malla
+1.0
+#deltaX
+0.01
+#deltaY
+0.01
+#Tamaño de la fuente (si = anchura de la malla, parallel-beam geom)
+1.0
+#Distancia fuente - malla
+0
+#Delta de propagación (deltaPaso)
+0.005
+1.0
+0.001
+0.05

@@ -1,0 +1,1635 @@
+%!PS-Adobe-2.0
+%%Title: img/imSART/NumAng_30_Numpix_100,dim_200x200__0.png
+%%Creator: gnuplot 5.0 patchlevel 3
+%%CreationDate: Thu Sep 14 10:37:26 2017
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 554 770
+%%Orientation: Landscape
+%%Pages: (atend)
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color false def
+/Blacktext false def
+/Solid false def
+/Dashlength 1 def
+/Landscape true def
+/Level1 false def
+/Level3 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -46 def
+/dl1 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 554 50 lineto 554 770 lineto 50 770 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 5.1 (Oct 2015)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Classic Line colors (version 5.0)
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default dash patterns (version 5.0)
+/LTB {BL [] LCb DL} def
+/LTw {PL [] 1 setgray} def
+/LTb {PL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [2 dl1 3 dl2] LC1 DL} def
+/LT2 {PL [1 dl1 1.5 dl2] LC2 DL} def
+/LT3 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC3 DL} def
+/LT4 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [4 dl1 2 dl2] LC5 DL} def
+/LT6 {PL [1.5 dl1 1.5 dl2 1.5 dl1 1.5 dl2 1.5 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC8 DL} def
+/SL {[] 0 setdash} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto gsave closepath fill grestore} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+dup 2 lt
+	{/InterpretLevel1 true def
+	 /InterpretLevel3 false def}
+	{/InterpretLevel1 Level1 def
+	 2 gt
+	    {/InterpretLevel3 Level3 def}
+	    {/InterpretLevel3 false def}
+	 ifelse }
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+%
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {textshow} {stringwidth pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get stringwidth pop -2 div
+     dup 0 R} {dup 6 get stringwidth pop -2 div 0 R 6 get
+     textshow 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (img/imSART/NumAng_30_Numpix_100,dim_200x200__0.png)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 5.0 patchlevel 3)
+  /Author (pablo)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Thu Sep 14 10:37:26 2017)
+  /DOCINFO pdfmark
+end
+} ifelse
+%
+% Support for boxed text - Ethan A Merritt May 2005
+%
+/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
+           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
+	   /Boxing true def } def
+/ExtendTextBox { Boxing
+    { gsave dup false charpath pathbbox
+      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
+      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
+      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
+      grestore } if } def
+/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
+               TBx1 TBxmargin sub TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
+/DrawTextBox { PopTextBox stroke /Boxing false def} def
+/FillTextBox { gsave PopTextBox 1 1 1 setrgbcolor fill grestore /Boxing false def} def
+0 0 0 0 InitTextBox
+/TBxmargin 20 def
+/TBymargin 20 def
+/Boxing false def
+/textshow { ExtendTextBox Gshow } def
+%
+% redundant definitions for compatibility with prologue.ps older than 5.0.2
+/LTB {BL [] LCb DL} def
+/LTb {PL [] LCb DL} def
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.100 0.100 scale
+90 rotate
+0 -5040 translate
+0 setgray
+newpath
+(Helvetica) findfont 140 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {gsave BackgroundColor C clippath fill grestore} if
+/Helvetica findfont 140 scalefont setfont
+/vshift -46 def
+gsave % colour palette begin
+/maxcolors 0 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor false def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+false { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+546 280 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 280 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-50)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 1045 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 1045 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 1810 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 1810 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 50)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 2576 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 2576 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 100)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 3341 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 3341 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 150)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 4106 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 4106 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 200)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 4871 M
+63 0 V
+5437 0 R
+-63 0 V
+stroke
+462 4871 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 250)]
+] -46.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+546 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+546 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-50)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1463 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+1463 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+2379 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+2379 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 50)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+3296 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+3296 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 100)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+4213 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+4213 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 150)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5129 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+5129 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 200)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6046 280 M
+0 63 V
+0 4528 R
+0 -63 V
+stroke
+6046 140 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 250)]
+] -46.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+546 4871 N
+546 280 L
+5500 0 V
+0 4591 V
+-5500 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UL
+LTb
+LCb setrgbcolor
+/Helvetica findfont 140 scalefont setfont
+LCb setrgbcolor
+5395 4738 M
+('/home/pablo/local.git/pablo/res/Resultados_SART/Resultados_SART_99.txt') Rshow
+1.000 UL
+LTb
+LCb setrgbcolor
+%%%%BeginImage
+gsave 546 4871 N 546 280 L 6046 280 L 6046 4871 L Z clip
+InterpretLevel1 {
+  %% Construct a box instead of image
+  LTb
+  1454 4710 M
+  4400 0 V
+  0 -3672 V
+  -4400 0 V
+  1454 4710 L
+  40 -110 R
+  (PS level 2 image) Lshow
+  % Read data but ignore it
+  /imagebuf 54742 string def
+  currentfile imagebuf readstring
+} {
+  gsave
+  {pm3dGamma exp} settransfer
+  1454 4710 translate
+  4400 -3672 scale
+  240 240 8
+  [ 240 0 0 240 0 0 ]
+  currentfile /ASCII85Decode filter
+  image
+} ifelse
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!&zzzzz!!
+W`9zzzzzzz!!NZ8#mg\6z!!rW*zz$46b5zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz#mC;/
+zzzz!!!!*z!!rr<#mgS3zzzzzz!!!!(#lk83zzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!33'!WiE)!Wi
+E)!WiE)!WiE,"U,&5"U,&5"U,&5"U,&:$47+I$47+R'+,'R%hB0]%hB0]%hB0]'GM5q'GM5u*>B2+)
+B'M))B.u0m-O-,mJ$DMp\4FWp\=OYq"HrGq"G<oq"XXYp\=LWp\=OX!WiE)!WiE2!WiE)!WiE3$j$J
+3!WiE)!WiE3$j6V5!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!W
+iE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!WiE,"U,&5"pG/6"U,&5"U5;@$47+I$47+S'+,'R%hB0]
+%hB0]%hB0b'GM5q'GM5r'H.l7,9nH#mHj6-q"XUXq"OOWp\=LXp\4FVq"OOXq"XUYp\4IWp\4IXp\4
+FWq"XUZp]:Ku!WiE)"UbA?!WiE)!WiE)!WiE3!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!Wif?!WiE)!
+WiE)!WiE)!WiE)!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!WiE,"U,&5"U,&5"pP5
+7"UYSD$47+I$47+I%13UV%hB0]%hB0]%hB0b'GM5q'GM6+,9nEX,OFglq"XXYp\4IWq"ORXp\4FVq"
+XXYp\=LXp\=LXp\4FWq"XUXp\=OYp\=OXp\4IXq"Fgk!Wi`;$O$S5!WiE)!WiE)!WiE)!WiE)!WiE)
+!WiE)!WiE)!WiE)!Wif>!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!Wi
+E)!WiE)!WiN/"U,&5"U,&5"U,&5"UYSD$47+I$47+I$53p\%hB0]%hB0]%ho]l'GM8r'GMc:,N8"aq
+"XUXq"XUYq"XUYp\4IXp\=OYp\=LWp\4FVq"XXYp\4FWp\4IXp\=LWp\=LWq"XUXp\4FWp\4po!WiE
+)!WiE)!Wic=!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)%1N@?!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!W
+iE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!WiN/"U,&5"U,&5"U,&5"UYSD$47+I$47+I$4dsh%hB0]
+%hB0]'HRr&'GM5q,9n>iq"XUYp\=LWq"XXZp\=LWq"ORXq"OOWp\=LXq"OUYq"ORYp\=LXq"OOWp\4
+IWq"XUYp\4IXp\4FWq"XUXp]Ug&!WiE)!Wic3!WiE)!WiE)!Wic=!WiE)!WiE)!WiE)!WiE)!WiE)!
+WiE)!WiE)!WiE)!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!WiN/"U,&6"U,&5"U,&
+5%giXN$47+I$47+I%i?-#%hB0]%hB?g'GM5q'GVqQiSjS,p\=LXq"XUXq"OOWp\=OYp\=OXq"ORXp\
+4FVq"XUXq=jXYq"OOWp\4IWq"XUYp\=OYq"OOXp\4FWq"XUXp\=Id"U,DC!XoD;!WiE)!WiE)!Wic9
+!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!Wi
+E)!WiE)!WiQ1"U,&5"U,&5"pG/6$47+I$47+I$47+I%hB0f(_7,f%hB?g'GM6'iSibip\=Ioq"OOXp
+\4IXq"ORXq"OOWp\=LXq"ORXq"ORXp\4IXp\=OXp\=OXq"ORXq"OOYp\=LWp\4FVq"XXYq"XUXpHA9
+Gp\+gp"V2+I!WiE)!WiE)$k*1=!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!W
+iE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!WiN/"U,&6"U,&5"U,&5$47+I$47+I$47+N%hB0f%hB0]
+%ho]l'H\FUiqW9Bp\FRXp\4FWpI=rPp\4FWp\FUYq"OOWp\=OYq"XXZq"OOWq"OOWq"XXYq"XXZp\4
+FVq"ORZp\4FWp\=J"p\=LWp\4IYp\4IX"U,DI"U,&5"Te`,$k*1=!WiE)!WiE)!WiE)!WiE)!WiE)!
+WiE)!WiE)!WiE)!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!X/`2"U,&5"U,&5"U,&
+:$47+I'+,'R$47+N%hB0f(`3bt'GVT.+5u2Qp\=LXp\4IXp\=OXp\4FVp\=LXq"ORXp\=OXp\4FWp\
+=OYp\4FVq"OOWq"ORYp\=LWq"ORXq"OOWq"a^Zq"OOWp\4IXp\=OXp\=LWp\+gq%g<+?"U,&5&-;n7
+!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!Wi
+E)!WiE)!X/`2"U,&6"U,&5"U,&:$47FR$47+I$47:S%hB0f(_7;q*?6'XiV3*@q"XUXp\4FWp\4IYp
+\4IXp\4IWq"XXYp\4FVq"XXZq"OOXq"ORYq"ORXq"XUXp\=OYq"OOWp\4IYp\=LWq"ORXp\FRXp\4F
+Vp\4IXp\4FV"U,&5%137M$O$\;"U+r/!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!W
+iE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!X/c3"U,&5"U,&6"U,5?$47+I$47+I$4dXX%hB0]%hBX.
+*9$Yeq"a[Zq"ORXq"ORXq"XUXq"XUY&,>nnp\=LXp\4IXp\4IWq"ORXq"XUXq"OOWq"XXYq"ORXp\=
+OXp\=LXp\4FW4nnaHp\4FWq"OOXq=j[Yp\4FWq"XRe"V2+I"pP57"U,&5"U,&2!WiE)!WiE)!WiE)!
+WiE)!WiE)!WiE)!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!X/`2"U,&6"U,&5"U,5
+?$47+I$47+I$4dXX%hB0]*%33Tq"XUYp\=OXp\=OX8GDlRp\4FWq"ORYp\=LXq"XUYq"OOWq"XXYq"
+ORXp\4IXq"X[Zq"OOWq"XXZq"ORYq"ORYq"OOWq"XXYq"OOWq"XUX&,5knp\4IXq"ORYp]V0=$j?e<
+"U5/7"U,&@&-W4@!WiE)!WiE)!X0#7!WiE)!WiE)!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!Wi
+E)!WiE)"U,&5"U,DI"U,&6"pt\E$47+I$47+N%hB0]%hB0k*?=hJq"ORYp\4FVq"OOXp\4FWp\4IWq
+"OOXq"XUXp\4IWq"XXYq"ORYq"XXYq"ORXq"OOWq"OUZp\=LXq"XXYp\4IXp\=LXq"XUXp\4IXp\=L
+Wp\=LWq"XUXp\=LWp\4Cc"V1b?"U,&5"U,)A"U,&5"U,&5"Te`,!WiE)!WiE)!WiE)!WiE)!WiE)!W
+iE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)"U,&5"U,&?"U,&5"UYSD$47+I$47:S%hB0]%hp$(f(f"7
+q"XXYp\4FWp\=LXp\4FVq"XXYq"XUXp\4IXq*"NIq"OOWq"XXY&,>qop\4FWq"OOXq"ORY4o"gIq"O
+OWp\4Fnq"OOWp\4FWq"ORYp\=LWp\4IWp\4FVp\4IXq"XUY$3^S:"U,&5"V;4K"U,&5"U,&5"U,&5"
+U+r/!WiE)!WiE)!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)"U5,6"U,&5%hAgI"UYS
+D$47+I$47:S(Cq#e%j_qBq"ORYp\4IXq"PHrq"ORXq"ORXp\=LXp\4FVq"ORXp\=LXpCI#nq"OOWq"
+ORYq"ORYp\=OXq"XXYq"OOWq"XSHq"XXZq"ORYq"OOWp\=LWp\4FWq"ORXp\-iHq"XXZp\4IWp^.?B
+"U,&5"V;4K"U,&5"U,&5"U,&5"U,&5"U+r/!WiE)!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!Wi
+E)!WiE)"U,&5"U,)6%hAgI$47+I$47+I$4dXX%hB0e+4p8]p\=LXq"OPPq"OOXp\=LXq"XXYp\=OXp
+\=OXq"OOXq"ORYp\4IWp\=OYp\=LXq"OOXq"OOXq"XUYp\=OXp\=OXp\=OXq"OOXq"XUYq"OOWp\=O
+Xp\=LXq"OOWp_`c#q"OOXp\4Ch&IJ[Q&-W4@"U,)6"U,&5"U,&5"U,&5"U,&5"U+r/!WiE)!WiE)!W
+iE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)"U5/7"U,&5"U,DD$47+I$47+I$4dXX%iQPAp\4FWp\=LW
+p\4FVq"XUXp\4FWp\=OYq"XXYp\=LXq"XUYp\=LWq=saZq"OOXq"XXYp\4IWq"OOXp\4FWq"ORYp\=
+OYq"OOWp\4FWp\=LXp\4IWp\=OYp\=LWp\4FWq"ORXp\=LWp\=OXpBhTK&-W7A"U,&5"U,&6"U,&5"
+U,&5"U5,6"U,&5"U,&2!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)"U,&5"U,&5"U,&C$47+
+I$47+I%hB0](Y@6hp\=LWp\=OYp\4FVq"ORXq"OOWp\=OXp\4FV6ML6Kp\4FWq"XXZp\4FVq"OOXp\
+=LWq"OPHpCI#mq"ORXq"XXYp\4FVp\=OZq"XUXp\4FV)#*e!p\4FWp\=LXq"ORXp\4FVp\=OXq"ORX
+pBh67$46q?"U,)7"U,&5&.f!K"pG/6"U,&5"U5,6"U,&5"U,&5!WiE)zzzzzzzzzz!!33'!WiE)!Wi
+E)!WiE,"U,&5"U,&5"U,&C',(][$47+N%hB0e)V=`Yp\=RYq"XXYp\=LXq"OOWp\4IXq"XV$p\=LWp
+\4FWq"ORXp\4FWp\FRXp\4IWq"GX"q"OOWp\=LWq"I;Qp\4IWp\4FWp\=LWp\4IWp\=LWp\=LXpIFu
+Qq"XUXp\4IWq"a[Yp\4IXq"ORYp\=Ii'FG0S"U,&5"U,&5&.f!K"U,&5"U5,6"U,&5"U,)6"U,&5"U
+,&5zzzzzzzzzz!!33'!WiE)!WiE)!WiE,"U,&5"U,)6"U,5H'+,?Z$47+N%hBl8p\4IXq=jXXp\=LY
+p\=OXp\=OXq"XUYp\=LXq"ORYq"XUYp\4FVp\=OXp\=LWq"XUXq"OOXp\4IXq"ORXp\=LWq"OOXq"O
+OXp\4IXp\4IWp\4FWp\=LXq"XUYp\=OYp\=LXp\=OYp\=LXp\4FVq"OOWpBhE<$47+D"U,G@"U,&5"
+U,&5"U,&5"U5/7"U,&5"U,&6"U,&5zzzzzzzzzz!!33'!WiE)!WiE)!WiE,"U5,6"U,&5"U,5?$4mg
+`$47:S(E1m"q"XXYp\4FWq"XUXp\4FWq"XUYp\4FXp\=LWp\=OXp\=LWq"XXYp\4FWp\=OXq"ORXp\
+=OXq"OOWq"OOWq=jXYp\=OXp\=OXp\=LXp\4FWq"OOXp\4IYp\4IWp\FRXp\=LWq"XUXp\4FWq"XUY
+q"ORXq"P1,$47+I$3^tP"U,&5"U,&5"U,&5"U,&5"U,&5"U,&5"U,&5zzzzzzzzzz!!33'!WiE)!Wi
+E)!Wi`5"U,&5"U,)6"UYSD$47CZ$47RcbLZI_q"XXZq"OOWq"OOXp\4IWp\=OXp\=JGp\=LXp\4IXq
+"XXZp\4FWp\=RYq"OOXq"R>Qq"ORXp\=OYp\=OYp\4FWq"GX#q"XUYp\=OYq"XUXp\=OYq"XUXp\=L
+XpCI#np\=OYp\=LXq"XUXq"OOWq"XUXq"XUk$47+I'GLl]"U,&6"U,&5"U,&5"U,&5"U,&5"U,&5"U
+,&5zzzzzzzzzz!!33'!WiE)!WiE)!WiN/"U,&5"U,&5"UYSD$5!UP%i6E+q"ORYp\=LWp\4IWq"XXY
+p\=LXp\=LWq"ORXp\=LWq"XUXp\4FWp\=LXp\=OYq"OOXp\=LWq"X[[q"OOXp\4FVp\4IXq"XUYp\=
+LWq"OOXp\=LX7ecZPp\=LXq"OOXp\=OXp\=OYp\4FWp\4FWq"ORXp\4FWp\4IWpBhTK$5<gS$3^S:"
+U,&5"pG/6"U,&5"U,)6"U,&5"U,&5zzzzzzzzzz!!33'!WiE)!WiE)!WiN/"U,&5"U,&5"UYSD$47+
+N(Es[jq"OOWp\=OXp\=LWp\4IWq"XUYp\4FWq"XUYp\FRYp\=LXp\=OYp\=LWq"XUXp\=LWp\=OXp\
+4IXq"ORXp\=LWq"ORYp\4IXp\=LWp\4IWq"OOXp\=OYp\4FWp\4FWq"XUXq"XXYp\=OYq"OOWp\4FX
+p\4FVp\4IWq"P11'GLl]$47+I"pG/6"U,&5"U5,6"U,&5"U,)6"U,&5zzzzzzzzzz!!33'!WiE)!Wi
+E)!WiN/"pG/6"U,&5$47+I$47+V(YAHWp\4FWq=s^Zq"XUXp\=LXp\4IXq"ORXp\=LXq"XUYp\4IXp
+\4FWp\=LWp\=LWq"XUXq"OOWq"X[Zp\=OXq"ORYp\4FVp\=LWq"XUYp\4FWp\=LXp\=LWp\=OXp\=L
+Xq"XXZp\4IXq"XXYp\=LXp\=LXq"OOWq=s^Zp\4Fq'GCf\$47+I$46q?"U,&5"U,&5"U,)6"U,&5"U
+,&6zzzzzzzzzz!!33'!WiE)!WiE)!WiN/"V(\>"U5,6$47+I$47RcbkUr-q"OOWp\4IWq"XXYp\=OX
+q"I5Op\4FWq"OOXp\4FVp\=LWp\=LWq"OOXpc\BHp\4IXp\=OYq"OOWq"ORXq"OOWq"OOWq"ORYp\4
+FVp\=Inp\=LWq"OOYp\4IXp\4FWp\=LWq"XUXp\,O!p\=OYp\4IXq"ORXp\4FVq"XUX(^^]Z$47+I$
+47+I'EnXD"U,&5"U,&5"U,)7"U,&5zzzzzzzzzz!!33'!WiE)!WiE)!X/`2"pG/6"U,&:$47+I$5XK
+hq"ORXp\4FWp\4IWq"XXYp\4IXp\=LXp\=OXp\=LWq"OOXp\=LXp\4LYq"ORYp\=LXq"XUXq"ORXq"
+XXYq"ORXp\=OYp\4IWq"OOWq"XUYq"XUXq"ORYp\=OXq"a[Zq"XUYq"ORYp\4IWp\=LXp\=OXp\4FW
+q"OOWp\=OXp\4IWp^[]=$47+I$47+I'ab*J"U,&5"U,&5"U,&5"U,&5zzzzzzzzzz!!33'!WiE)!Wi
+E)!X/`2"U,&5"U,&:$47+I$5^n\p\4FWq"XXYq"OOXq"ORXp\4IWp\4FWp\4IXp\=LXp\4IXp\=LWp
+\=OXp\4IXq"ORYp\4IWq"XUXp\4IWq"XUXp\4FVq"ORXp\4FVq"OOWp\=OXq"XXYp\4FXp\4FWp\=O
+Yq"XUYq"XUXp\=LXp\4IWp\4IXq"ORXq"ORYq=saZq"G:+$47+I$47+S$47+I$3^S:"U,&5"U,&5"U
+,&5zzzzzzzzzz!!33'!WiE)!WiE)!X/`2"pG/6"U,5?'+,'R*R"6Pq"XUYq"ORXpCI&nq"XXYp\=LW
+q"XXZp\4FVp\4FWp\=LXq"OOWp\=LWq"XXZp\4FVq"OOWq"OOXp\FRXp\4IWq"ORYp\4IXp\4FVp\=
+LWq"OOWp\=LXp\4FWp\4FVq"XUYp\=LWp\=LWp\=OYq"ORZq"ORXp\=MHp\4IWq"OOXq"OOo)%$]X$
+5=0]$47+I$47+D"U5,6"U,&5"U,&6zzzzzzzzzz!!33'!WiE)!WiE)!X/`2"U,&5"pPDI$47+SbP:l
+-p\4IWp\4FVp\4IXpc\BGp\4IXq"ORXp\=LXp\=LWq"XUYp\=LY7el`Qp\4FVp\4FWp\=LXq"ORXq"
+XUXp\4LXp\4IWp\4FWp\=OXq=s^Zp\=LWq"OOWp\4FV)#3n#q"XUXq"OOXq"ORYp\4IXp\4IXp\4Cm
+q"OOWq"OOXp\=OXp\4IX%i>W\$47+I$47+I$47+I$3^S:"U,)6"U,&5zzzzzzzzzz!!33'!Wi`;!Wi
+E)!X/`2"pG/6"UYkL$5FH&q"XUXq"OOXp\4FWq"ORXp\4FVq"XUXp\=OXq"ORYp\4IXq"OOWq"XUXp
+\=OXq"OUYp\4FXp\4IXq"ORXq"OOWq"OOXq"OOWp\4FVq"ORXq"XUXp\FUYq"X[Zq"OOXp\=LXq"OO
+Wp\=OXp\=LXq"OOWp\4FXq"OOWq"ORYq"XUXq"ORXq"ORYp^\2K'FG0S$47+I$47+I$47+I"U,&5"U
+,&6zzzzzzzzzz!!33'!Wi`;!WiE)!X/`2"U,&5"UYSD$5q(^q"OUYp\=LWq"OOWq"XUXq"ORXp\4FW
+q"OOWp\=OYq"XUXq"XUYp\=LXp\=OYp\4IWp\=LXp\=LWq=j[Yq"ORYp\=RYq"ORYq"OOXq"OOWq"O
+OWp\=LXp\4IWp\=OYp\=LWp\=OXq"OOXp\=OYp\4IWq"a[Yp\4IXq"OOWq"OOWp\=LWp\4LXp\,18%
+giXN$47+I$47+I$47+I$3^S:"U,&5zzzzzzzzzz!!33'!WiE)!XfA;"U,&5"U,&5$47+I'[4eqq"OO
+Xp\4FWp\4IWq"ORXp\=OYp\,Htq"XXYp\4FVq"XXZp\=LXp\=RYq"XXYp\=LXq"ORYq"OOWq"OOXq"
+XXYp\4FVq"OOWp\4IXq"XXYq"ORYp\4IWq"XUYp\4FVq"ORZp\=LXq"XXZq"XUXp\4IXp\.2Pp\=OY
+q"ORXq"OOWp\=OXq"XXYq"G:0(_7,a$47+I$47+I$47+I$47+I"U,&5zzzzzzzzzz!!33'!WiE)!Xf
+A;"U,&5"U,&5$47+QbkLo,p\=OXq"ORX554gGq"OOWp\=OXp\=RZq"ORYp\4FXq"OMOq"XXZp\4FVp
+\4IXq"XXYq"ORXp\4FVq"XXYp\4IWq"XUYp\=LWq"XXZq"ORXp\4FVp\4IWp\=OYq"ORXp\4FVp\=L
+Xp_`c"q"XUXp\=LWq"ORXp\=OYp\4IWq"ORX&,5hmp\4IXq"ORX%hB0]$47+I$47+I$47+I$47+I$4
+6q?zzzzzzzzzz!!33'!WiE)!WiE2%LrXH"U,&5$47-`bk_#-p\4IWq"ORXq"ORXq"XXYq"ORXq"OOW
+p\4IXp\=OXq"ORYq"XUXp\4FWq"OOXq"ORXp\=OXq"XUXq"XUXq"ORYp\4IWp\=OXp\4IWq"OOXq"O
+RYq"OOXp\=OXp\4FVp\=LXp\=LXq"ORXp\=LXp\=OXp\4IWq"OOWq"OOXq=j[Yq"ORXq"ORXp\4IX%
+hB0]%giXN$47+S'FG0S$47+I$47+Izzzzzzzzzz!!33'!WiE)!WiE)%LrsY"U,&:$5*upq"ORXq"XX
+Yq"OOWq"XUXp\4IWp\=OXq"a^Zp\4FVq"OOXp\4FWq"OOWq"XUXp\=OXp\4IW7ecZPp\4FVp\=OXpD
+EZ!q"XUYq"OOXq"OMOp\=OYp\4IWq"XXY)#*e!q"ORYq"OOXp\=LWp\=LWp\=LWp\=LXp\4IXp\4FW
+p\4LXp\4FWq"OOWq"ORYq"ORXpC@cF%hB0X$5<sa'FG0S$47+I$47+Izzzzzzzzzz!!33'!WiE)!Wi
+E,"U,AG%1WOK$51SWq"XUYp\4IXp\=OYp\=LWq"OOXq"OOXp\4FWp\4IWq"XS"p\=LXp\4FWp\4IXp
+\=LXp\4IXp\=OYp\=OXq"OOXq"OOWq"OUYp\4LXp\4IWq"XUXq"OOXq"ORXp\FUYq"XXYp\=LXp\4I
+Xp\=LXpdY#Pq"XXYp\=LWp\4FVq"OOWq"OOWp\=OYp\=OXp\4FXq"P@1%hB0]$5F6^$47+I$47+I$4
+7+Izzzzzzzzzz!!33'!WiE)!WiE,"U,&>%L!1P&dnF.p\4GGq"OOWp\=LWq"ORYp\=OYq"ORXp\=LW
+q"R#Ip\=OXq"OOXp\=LWq=s^Yp\=OXp\4FWp\4FWq"OOXp\4FVq"OOWq"XUXp\4FWq"OOWq"ORXp\=
+LWq"XUYq"XUYp\4IXp\4FVq"XUYp\4FVq"ORYp\59oq"OOWp\4IWp\=LXp\=OYq"XUYq"OOWp^d/op
+\=Lo%iH6&)%$]X$47+I$47+I$47+Izzzzzzzzzz!!33'!WiE)!WiE,"U,&>"V).X');4qq"XXYp\=L
+Xq"ORXp\4FWp\=LWq"OOXq"ORYp\=OYq"OOWp\=OYp\4IXp\=LXp\4FVp\=OXq"OOWp\=LWp\4FWq=
+jXXq"OOXp\=OXq"OOWq=jXYp\4FWp\4IWq"ORYp\=LWp\=LXp\4FWp\=OYq"OOWp\=LXp\=RYq"XUX
+p\4FWq"XUXp\4FVq"XUXp\4IXq"XUY%iH6&%hB0X$47+I$47+I$47+Izzzzzzzzzz!!33'!WiE)!Wi
+E,"U,&5"VMHaq"OOWq"OOWq"XXYp\4IWq"XXZq"OOXq"OOWq"XUXp\=LXp\=RZp\=LWp\=OYq"OMZq
+"XUXp\4FVp\4IXq"ORYq"OOWp\4IWp\-iFp\,3mp\4IWq"OOWq"XXYq"ORYp\=LWp\4FWpC[/op\=O
+Yp\=LXp\4IXp\=LXp\4FVq"ORXq"XUXq"ORYq"OOXp\4IWq"ORXq"XUXpCA,Z%hB0]$47+I$47+I$4
+7+Izzzzzzzzzz!!33'!WiE)!WiE,"U,&5"WSDrp\4IWq"XXYp\4FWq"XXYq=jXXq"XXYp\4IWp\FRX
+p\4IWq"OOXp\4FXp\4IW(\me"q"a[Yq"ORYq"ORYq"ORYp\=OXp\4FVp\4IXq=s^Zq"OOWp\=OYp\4
+IXq"XUXq"XUYq"XUYq"ORY7ecZPp\=LWp\=LXq"XXYp\4FWp\4IWp\4IXq"OOWq"OOWq"XUXq"ORXq
+"ORXpDt1g%hB0]%giXN$47+I$47+Izzzzzzzzzz#m(/0!WiE)!WiE,"U,&5&f&7Wq"OOXq"OOWp\=O
+Xp\4LXq"OOXp\4FVq"XXYq"ORYp\=OXp\4IXp\=LWq"XUYp\4FWq"OOXp\=LXq"XUYp\4FWq"XUXp\
+=OYq"ORXp\=OXp\=OYq"ORXq=jXXp\4FWq"ORYq"XUXq"XUXp\4FWp\4FWq"ORXp\4FWp\=LWq"ORX
+q"OOWp\4IXq"ORXp\4IXp\=LWp\=LWq"G::%hB0]%hB0X$47+I$47+Izzzzzzzzzz!!33'!WiE)!Wi
+N/"U,)6&eFd3p\4IW(\me"q"OOWq"OOWp\4FVp\=OYq"OOWq"OOXq"XUYp\4FVq"XXZp\4FWp\=OYp
+\=LXp\4IWq"ORYp\=LWp\=OYq=j[Yp\4FWp\=LWp\4IWq"ORXp\=LXp\4FVq"ORXp\4FWp\=OYp\=O
+Xp\=OYq"OOWq"XUYq"OOWq"XXYq"OOXp\4FVq"OOWq"OOWq"OOX8,)fQp\4Cr%hB0]&.]9^$47+I$4
+7+Izzzzzzzzzz!!33'$N^A2!WiN/"U,&5'#FA<q"XUXp\4FVq"XXYp\=LXq"XXYq"XUYp\=OXq"ORY
+p\=LXp\=RYp\.,Op\=LXq"OOWp\4FWq"XUYp\=LWp\4FVpI=oOp\4IXq"XUXq"ORXq"ORXq"OM"p\4
+FV?=mkaB__>sp\=LXp\4FVp\=LXq"GX"p\4IWq"XXYp\=OXp\4LYp\4FWp\=LWq"OOWp\4FWp\=LWq
+"ORYq"XRu%hB0]%hB0]%i#EY$47+Izzzzzzzzzz!!33'!WiE)!WiN/"U,)C_>*g"p\4FWq"XXYp\4F
+Wp\=OYp\=OXq"ORXp\=LXq"OOXp\4FVp\4IWp\=OYp\=LWp\4IXq"OOXp\=LWp\4FVq"a[Yq"OOXp\
+=OYq"ORXq"XXYq"ORYp\=LXp\4FWq"OOXq"XUYp\4FVq"XXYp\4FVp\=LXp\4IWp\4IWp\=LXp\=LX
+p\4IXq"OOXp\=OYq"OOWp\4IWq"OOWp\4FW'Ft]b%hB0]%iGlb$47+Izzzzzzzzzz!!33'!WiE)!Wi
+N/"U,&E_>!a"p\4IXp\=LYq"XUXq"OOXq"XXYp\4IXp\=OXq"XUXq"XUYq"XUYp\4FWp\4IXq"XUXp
+\=OYp\=LWp\4FWp\4IXp\4IWp\=LWq"XUXq"OOXq"OOXp\4IWp\=OYp\=LWp\=LXp\=OYp\=LXq"XX
+Yp\=LWp\=LWq"XUXq"OOXq"ORYq"ORXp\4IXq"XUXq"OOXq"XUYp\=OXq"ORY'HRbq%hBNg&e>K`$4
+7+Izzzzzzzzzz!!33'!WiE)!X/`2"VDKcp\=OXq"ORXp\=LXp\4IWp_W`"p\=OXq"XUYq"OOXq"OOW
+q"ORYp\=LWp\=OXp\4FVp\=LYq"ORYp\4IWq"XXYq"XUXq"OOXq"OOXp\=OXp\4IWq"XUXq"OOWq"O
+OXq"OOXq"OUYp\4FVq"XXYp\=LWp\4IYp\4FWp\=OXp\=LWq"XUXq"OOWq"ORYp\4JRq=j[Yp\=LXq
+"ORXq"ORYpCnYZ%iH6&%hB0]%hB!Szzzzzzzzzz!!33'!WiE)!X0&F&.QImp\4IXp\4IWp\=LWq"OO
+Wq"ORXp\=OYp\4IWq"OOWq"OOWpc\BGp\=OXp\=LWp\4IXp\=LWq"XXYp\4FV=nh[cp\=OXq"OOXp\
+=LWq=s^Yp\=OYq"XUXp\4IWq"ORYp\=OX*VfC'p\4FWq"OOXq"XXYp\4FWp\=OYq"XRoq"ORYp\4FW
+q"OUYq"XXZp\4FVq"ORXq"OOXp\4IWp\4IXpCn;U)&Wqq%hB0]%hB0Xzzzzzzzzzz!!33'!WiE)!X0
+&;%MchSp\4FWp\4FWq"XXYq"OOXq"XUXq"ORXq"ORYp\4FVq"ORYq"XXZp\4FVp\4IWp\4FWq"ORYq
+"OOWp\=OYp\=OXq"OOWp\4IYq"ORXp\=OXq"XXYp\4FVq"XXYp\4FVp\4IWp\=LXp\4FVq=saZq"XU
+Xp\4IXp\4FVq"XUXq"XXZq"OOWp\4IXq"ORXq"OOXq"XUXq"ORYq"XUXp\=LWp\,@D'Ft]b%hB0]%h
+B0]zzzzzzzzzz!!33'!WiE)!X/`2(r?"Aq"XUYq"XUXp\4IWq"ORYp\4FVq"XXYp\=LWq"ORXq"ORX
+p\4IWq"XXYq"OOWp\=OYp\4FVp\4FWq"OOXq"XUXq"XXYp\=OXq"OOXq"ORYp\4IWp\=OXq"ORYp\4
+IXq"ORYq"OOWq"XUXp\4IWp\=OYp\4IWq"XXZp\4FWp\4FVp\4IXq"XUXp\4IXq"XUXp\4IWq"ORXp
+\4FWp\=LWq=jUt*>B"p%hB0]%hB0]zzzzzzzzzz!!33'!WiE)"U,&5_85jap\4IXp\4IXq"XUXp\=L
+Wq"XXYpc\BHp\5U"p\=OXq"OOWp\=OYp\4IWp\4IXp\4FVp\=LXq"XUYq"XXYq"XUYp\=LWp\4LXq"
+ORXq"XUYq"XUYq"OOXq"OUYp\=OYp\=LXq"OOXq"OOWq"XUYp\4FVp\=OXp\4IWp\=LXp\4FVq"ORY
+p\7AUp\=Inp\=LWq=jXYq"OOXp\=LWq"X[ZpHA6b'GM&g%hB0]%hB0]zzzzzzzzzz!!33'!WiE)"U5
+,>_>*d!q"XUXq"XUXq"OOXq"ORYp\4FWq"ORXq"OOW6210Lp\4FXp\4FVp\=LWp\=LWp\=OXp\4GPq
+"OOXq"OOWq"XXYp\=OYq"XXYq"ORZp\4IWp\4IWq"a^Zq"ORYq"XXZp\4FVq"OOWq"XUXpCm>rp\4I
+Wq"OOXq"OOXp\4FVq"XUXp\=LW)>En"q"OOXq"OOXp\=OYq"XXYq"OOXq"ORXp\4FW'GM5q%hB0]%h
+B0]zzzzzzzzzz!!33'!WiE)"U,@O_YEm#p\4FWp\4IWp\=OXq"XUYq"ORXq"ORXq"OUZp\4IWp\=LW
+q=j[Yp\4FVp\=OYp\=LWp\4IWq"XXZq"ORYp\4FWq"OOWq"ORZp\=LWp\4IWq"OOXp\=OYp\=OXp\4
+FVq"XUXq"XUXp\4FWp\=OXp\4FWp\=OYp\=LWp\4IXq"OOXp\4IWp\=RYq"XXYp\=LXq"OOWq"ORYq
+"XXYp\=LWp\=OY'GM5q%hB0]%hB0]zzzzzzzzzz#Qb>7!WiE)"U5FPp\=OXp\4IXp\=LXp\4IWq"XU
+Xq"ORXq"ORXq"ORYq"ORYp\4IXp\=LXq"a[Zp\4FVp\=OYp\4FVp\4FVq"XUXq"XXYpDEZ!p\4FWp\
+4FWq"OOXp\4FVq"XUXq"OOWq"OPZp\4IXq"OOXq"ORXp\4FVp\=OYp\4FVp\=LXq"XUXp\=OXp\=OX
+q"OOXq"ORYq"ORXp\4FWq"ORXp\=LWp\4FWq"ORYpCn;U'bh/h%hB3hzzzzzzzzzz#RUn?!WiE)"Ut
+pXp\=RYq"ORXp\=LX)Ya%%4nn^Fq"XXYq"ORYq"OOXq"OOWq"OM#p\=LWp\=LXp\4LYp\4FWp\4FWq
+"XUXp\4IXp\4FVp\4IWp\=LWq"ORXp\4FWp\=OXp\=OXq"XXYq"XUXq"XUYp\4IWp\4FVq"XUXq"XU
+Xp\4IWp\4IXp\4FWpc\BGq"OOWq"XXYq"XXYp\4IXq"XXY&,5ko4o"dGp\4IXq"OOXpCn;`'GM&g)@
+m]'zzzzzzzzzz!"0,@$47+H%2cqVq"ORYp\4IXp\4IXp\4FVq=sa[q"OOWq"XXYp\4IWp\=OYp\=OX
+q"OOXq"OOWq"HrGp\4IXq"ORXq"XUXq"XUXp\4FWp\=OYp\4IWp\4FWp\=LWq"ORYq"ORXp\4IWp\=
+OYp\=LXp\4FVq=jXYp\4FVq"XXYp\,3mp\4FWp\=LWq"XUYp\4IXp\=OXp\4IXp\4FVq"ORYq=s^Yq
+"XXYp\=OXp\=LXp\,@<'GM5l)&Wqqzzzzzzzzzz!!33+!X]YS%1W+,p\=OXp\=OXq"XUYq"OOXp\4I
+Wp\FUYp\=OYp\4IWq"OOXq"OOXp\4IWq"XUXp\=LXp\4FVq"OOXq"OOXp\=LXq"a[Yq"XUXq"ORXp\
+=LWp\4LXp\4IWp\4FWp\4IWq"ORYq"XUYq"XUYp\4FVq"XUXp\4FVp\=OYq"OOXq"ORYq"XUYp\=LW
+q"XXZp\=LXp\4IYp\=OYq"XUXq"XUXq"XXZp\=OYq"OOt*Y]\<)AE\mzzzzzzzzzz!!33'!X9)C(q0
+26p\=LXp\4IWp\4IXq"XUXq"XUXq"OOXq"OOXp\4FWp\=LXp\=LXq"OOWq"OOXp\4FWq"X[[p\=LWp
+\=OYp\4FVp\4FWp\=OXp\=OXp\5U#q"OOWp\4FVq"R>Qp\4IWp\=OXp\=LWp\4FVp\=OYp\4FVp\=O
+Xp\=LXp\=LXq"OOXq"XUYp\=LWq"ORYp\=LXq"OOXq"ORYq"ORYp\4IWp\4LYp\=OYp\4Cr+!)+1'F
+t]bzzzzzzzzzz!!33'!WiE4'_qFtp\FUYp\4DPq"ORYp\=LXp\4IWp_rr%p\4FVq"XUXq"ORXp\4IX
+q=j[Zp\=LW.erf5p\=LXq"XXZq"OOWq"ORXp\=OXp\=LWp\4FWq"ORXp\4FWq"XUXp\4IWq"XUXp\4
+FWp\4IYp\=OXq"OOWp\=LXq"XUYp\4IX8,)cPp\=OXq"XXYp\4IWp\=LXq"OOWp\=MHq"OOWp\=LXp
+\4IWp_EPtp\4IXp\=OY+!212'GM&gzzzzzzzzzz!!33'!WiNB[eKRlq"ORYq"XXYq"XUXp\4FWp\4I
+Xp\4IXq"XXYq"OOWq"OOWq"ORXq"OOWp\=OYp\=OXq"XXZp\4FVq"ORYq"XUYq"ORXq"XUXq"XUYq"
+OOXq"OOXp\=LWq"OOWq"XUYp\=OYq"OUYq"XUYp\=LWq"ORYp\=OYp\=LXp\=OYp\4FWp\4FVq"XUY
+q"ORXp\4IXq"ORXp\=LWp\4FVp\4FWp\4IWq"XXYq"OOW'HRr&'GM5lzzzzzzzzzz!!33'!WiN7[eT
+Xlp\4IX(ARY!p\=LWq"ORYq"OOXq"XUXq"OOWq"OOWp\4IXp\=OXp\4IXq"OOXq"XXZp\4FVp\4LYq
+"OOWq"XUXq"XXZp\4IXp\4FWp\=LXp\=LWq"a[Zp\=LXp\4FVp\4IWp\4IXq"XUYq"OOWq"X[[p\4F
+Vp\=OXq"XUYq"XUXp\4IXp\=OYp\4FVq"OOWp\4FWq"OOWq"ORXq"OOWp\=LW8,2lRp\4IX)AEl"'G
+M5qzzzzzzzzzz!!33'!Wih?q"ORXp\4IWp\=LWq"OOWp\4FWp\=OXp\4FVp\=LWp\4FVq"ORYq"OOX
+p\4IWq"ORYq"XUYp\=LWq"OOYp\=OYp\=OXp\=LXq"XUYq"XUXp\=OYpdY&Qp\4G"q"XUYq"OOXq"O
+OXq"ORYp\4IXp\=OXq"XUXq"XUYq"OOXq"XXZp\4IWp\=LWq"XUXq"OOWp\4IXp\4FWp\4IXq"XUXp
+\4FVp\=LXq"ORYp\4IWp`pOf'GM5qzzzzzzzzzz!!33'!Wih>p\.5Rq"ORYq"ORXp\4IWp\=OXp\4F
+Vq"XXYp\4FWp\5U#p\4IWq"OOXq"a[Yq"XUXq"ORYp\4IWpEfS.p\4FWq"XUXq"OOXp\=LWp\4IWq"
+ORXp\4FWp\=LWp\4IXq"XXYp\4IXp\=LWq"ORXq"XUXp\4DOp\4IXq"XXYp\=LWq"XUZp\4FWq"ORX
+p\78Rp\=LWp\4IWq"XUXp\4IXp\4IXp\4LXq"XXYq"PTup_jh\'GM5qzzzzzzzzzz!!33'!WiqBq"X
+XYq"XXYp\=LXq"OOXq"XUYq"OOXp\=OYp\=LXq"ORYp\4FVp\4FWp\=OYq"ORXp\4FWq"XUYq"OOWq
+"XUYp\=OXp\=OYp\4FWq"OOXp\4IWp\=OXp\4IXq"OOWp\=LWq"XUXp\4IXp\4IXp\=LXp\4FVq"XU
+Yq"XUXp\4IWq"XXYq"XUXq"OOWp\=LWq"XXZp\=LXp\4FWq"OOXq"XUXq"XXYp\4FWq"ORZp_kFm'G
+M5qzzzzzzzzzz!!33'!Wir.p\=LXq"OOXq"a[Zp\=OXp_NZ!p\4FWp\=LWp\4IWq"XUYp\=LXq"XUY
+q"ORXp\=LWq"XXZp\=LWq"OUYq"OOWp\=LXq"OOWq"XXZp\=LWq"XUXp\4FVq"OOWp\4IXq"XXZp\4
+IWq"ORXq"XUYp\4FVq"OUYp\=LXp\=OXq"OOXq"OOXp\4IWq"XXYp\FRYq"ORXp\4IXp\=LWp\4GQq
+"OOXp\=LXq"ORXq=s^Yp\,pI'GM5qzzzzzzzzzz!"B/7"VA-;q"XUXp\=OYp\4IXp\4IXp\4FWq"a[
+Yq"ORXq"ORXp\4IXp\=OXp\4IWp\4FWq"ORYq"OOWp\4FVq"XXYq"XXZq"XXYq"ORXq"OOX?MF3gp\
+4FVq"XUXp\4IXq"OOXp\4FV-M[B1q"XXYp\4FXq"OOXq"OOXq"OOWp\=OXp\=OXq"XUYp\4IWp\4IX
+q"ORXp\4FVq"ORXq"OOYq"OOWq"XXYq"XXYp\4LXp\4IWq"PaQ'bh?(zzzzzzzzzz!"&o>!k,T4p\=
+LWq"XUXq"XUYq"OOWq"OOXp\4FWp\4FWq"XUYq"XUXq"OOWq"ORXp\4IXp\=OYq"XXYq"OOWq"ORYp
+\4IXp\4IWp\4FWq"a[Yp\=LWp\4IXp\4IXp\=OXp\4IWp\4FVp\=LXq"OOWq"ORXq"ORXq"XUXp\4F
+Vq"XUYq"OOXp\=OYq"OOWq"ORXq"ORYq"ORYq"OOWq"ORXp\=LWq"OOWq"XUYq"XUYq"OOXp\,RE'H
+\D7zzzzzzzzzz!!332$Ffg*p\=LWp\4FWp\=OYq"ORXp\=LWq"ORXq"XUYq"OOXp\4FWp\4IWp\FRY
+q"XUYq"OOWq"ORXp\FUYp\=LWp\=OXq"OOXq"ORYq"OOXp\4IWp\=OYp\4FVq"OOXp\4IXp\=OXq"X
+XYq"OOWq"XXYq"XXZp\4IXq"XXZp\4IXq"XXYq"XXYq"XX[p\4IXq"OOWp\=LWp\4FVq"XXZp\4FWp
+\4IWq"XXYq"XUYp\4IWq"OP%)BTY-zzzzzzzzzz!!332%(>mJp\4LYq"XUXp\4FWq"XUYp\4IWp\4F
+Vp\5O!p\4FVq"OOWp\=LXp\4LXq"ORXq"OOWq"OOXq"OOWq"X[Zp\4FVp\=OYq"ORYq"ORXp\4IWq"
+XUXq"OOWq"OOWq"OOXq"XXYp\4IWq"XXZq"ORZp\4FVp\=OYq"ORXq"XUYp\4FVq"ORYp\4IWp\4FV
+q"ORXq"OOXp\7;Sp\=LWp\4IWq"XUXq"XUXp\4FWp\4LXpHA6h,T7@2zzzzzzzzzz!!33'\$l&*q"O
+OXp\4FVq"XXYq"XUXp\4IWq"ORYp\4FWq"ORYp\4FWp\4FWp\4IWq"OOXp\=OXp\4IWp\=LXp\4FVp
+\4IXp\=MMq"OOWq"OOXp\=OXq"ORXq"XXYq"ORXq"XXYp\4IWp\=LWq"OOXp_`f#p\=OXp\4IWq"OO
+Xq"OOWq"ORXp\4FVq"OOXp\4FVq"XUYp\=LWq"XUXp\=OXp\4IWp\4FWq"OOXq"ORXq"XUXp\4D#)B
+';(zzzzzzzzzz!!33.[eTUkp\=LWp\4FWq"ORXq"XXYp\=LWq"XUYp\=OYp\4FVp\FRXq"XXYp\4IW
+q"ORYp\=LWq"ORYq"OOWp\=OYq"XUXq"XUYp\4IXq"XXZq"XUXq"ORXq"XXYq"OOXq"ORXq"OOWp\=
+OYp\=OXp\4IXq"XUZq"ORYp\4FVq"XXYp\4FVp\=OXq"ORYp\4IXp\4FWp\4FVp\=OYp\=LWq"XUYp
+\4FVq"ORXq"XXYp\4FWp\4FV)]BV/zzzzzzzzzz!!33.[eKRlp\4FVq"XUXq"ORXq"OOXp\4FVq"OR
+Xq"ORXq"a[Yp\4IXp\=LXq"OOXq"XXZp\4IXp\=OXq"ORYq"ORYq=j[Zp\4IWp\=LWq"XUXq"XUYp\
+=LWq"XXZp\4IXq"OOXp\=LXq"OOXq"ORYp\4IWp\4IWp\=LXq=s^Yq"OOXp\=OYp\=LXq"XUXq"OOX
+p\=OXp\4IXp\4IXp\4IWp\4FWq"XUXq"OOWq"XUYq"ORXq"XXY)B'M.zzzzzzzzzz!!33.[eKOjpdb
+,Sp\4FW)>Nt#q"OOWp\=OXp\=OXq"XXZ8,)cQq"OP!q"XUYp\=OXq"ORXq"OOYq"OOXp\4IWp\=OXp
+\4FVp\=OYq"OOXp\4IWp\4FVp\FRXp\=OXq"XXZp\4FXq"OOWp\4IWp\=LWq"XXZq"OOWp\4IXq"OR
+Xp\=LXp\FRXq"ORXq"OOXp\=LXpdb,Rq"XXY(&7Ouq"OOXq"ORYp\=LWp\=OY4o"dGp\=Luq"ORX)B
+'M4zzzzzzzzzz!!35'p\4FWp\4FWq"XXYq"XUXq"XXZq"XX[q"ORXp\4FWq"a^Zq"XUXq"XUXp\4FW
+q"ORYp\4FWp\4FVq"OOWq"I>Sp\4IWp\4IWp\=OXq"OOXq"XUYq"XUYp\=OXp\4FXp\=LWq"ORYq"O
+RXp\=OYp\4IWp\4FVp\,R"q"XUXq"OOWq"XUXp\=OYp\=OYp\4FVp\4FWq"ORYq"XUXp\4IWp\=OYq
+"XXZq"OOXq"ORYp\=OXq"XUXpDOqhzzzzzzzzzz!!3J8q"XXZq"XXZp\4IWq"ORXp\=LXp\=OXp\=O
+Zp\4IXp\=LXp\4FVp\=LWq"OOWq"XUYp\4IWp\=OXq"OOWq"XUYq"XUXp\4IXq"OOXp\=LWq"OOWp\
+=OXp\=LXp\=LXq"ORYq"XUXq"XUXp\=LWq"XXYp\4FWq"XUYq"ORXq"ORXp\4IXp\=LXp\4FVq"OOX
+p\=OXp\=LWp\=OYp\=OYp\=OYp\=LXp\4IWq"XXZq"XXZp\=LWp`UOozzzzzzzzzz!!3kDq"XXYp\=
+LWp\4IWq"ORYp\=LXp\4FWq"XXZp\=LYq"OOWp\=LXp\=OXp\4IXp\4IXq"OM0q"ORXq"XXYp\4IWp
+\4IXq"ORXp\4IXp\-fFq"XXZp\=LXq"XUXp\=LWq"XUXp\4FWq"Rqcp\4IWp\=OXq"XXYq"OOXp\4I
+Xp\4IWpege[p\=LWq"XXYp\4IXp\=LXq"OOWq"XUYp\FUZq"OOWq"XUZp\=OXq"XXYp\4FWp\4LXp_
+kD$zzzzzzzzzz!!s@Kp\4IWp\4IXp\4IWq"XUYp\4FWp_iiip\4FWp\FRXp\=OXq"XUYq"OOXq"XXY
+(AIUuq"XUYq"OOXq"OOWq"ORXp\=LXp\4FWp\4FWq"XXYq"XUYq"XUYp\4IXq"ORXp\4FWp\=LXq"O
+RXq"OOWp\=OXp\=OXp\4IWq"OOWq"OOXp\=OYq"ORX8,2iRp\=LXp\=LXq"XUYp\=LYp\4FVpDN`hq
+"XUXp\=LXq"ORXp\=OYp\4IWpDP;&zzzzzzzzzz$4.F@p\=OXq"ORYp\4FWq"ORXq"XUXp\=LWp\=O
+Yq"OOXp\4FWp\4IWp\=LWp\=OXp\=OXq"OOXpdk/Rq"X[Zp\=OXp\4FWp\4FVq=jXYp\4FV=8;Rcp\
+FRXq"XUXp\4IWq"OOXp\=OX-hmE1p\=LXq"OOXq"ORXp\=LYp\=RZp\4Csq"a[Yp\4FWp\=RZp\4FW
+p\4IWq"XUXp\=LWq"XXZp\4FWp\=OYp\4IWq"XUXq"XUXq"XXYp\,sZzzzzzzzzzz"UPM0p\4FVp\4
+FXp\=LWq"OOWq"XUYp\=LXq"ORXp\4IXq"XUYq"XUXp\4IWq"ORYp\4IXp\4IXp\4IWq"OOXq"XUXq
+"OOWq"ORXp\=OXq"XUYp\=OYq"ORYp\=LWp\=LWp\=OYq"XXZp\=OYq"XXZq"XXYp\4IXp\4FWq"OO
+Wq"XUXp\4FWp\=OXp\=OXp\4FWq"OOXq"XUYq"XXZp\4FVp\=LXq"XUYq"OOXp\4IXp\=OYp\4IWq"
+G[Pzzzzzzzzzz!#2O/q"ORXp\4FWq"OOXq"XUXp\=OXp\FRXq"XUYp\4FWp\4IWq"OOXq"XUXp\4IW
+q"ORXp\=OYp\4IXp\4FV)>Eq#p\=OYp\4FWp\=OYq"OOWq"XUYp\=M+p\=LXp\=OZpe^b\p\=LXq"O
+RXq"ORXq"XUXq"OOXp\4IX8GMuSp\4IWp\=OYq"OOWq"ORXp\4FVq"XUXq"XXZp\=LWp\=LXp\=LXp
+\4IXp\4FWq"XUXp\4FVq"XUXp\,ROzzzzzzzzzz!"#e&q"OOWq"ORXp\4FVp\7;Sp\4FWp\4IWp\=O
+Xp\>U!p\4FVq"ORYp\=OYp\=OXp\=LXq"OOWpEB>,p\4FWp\=OXq=s^Yp\FUYp\4IXp\4IXq"XUYq"
+XUXq"XUYp\=OYq"OOXp\=LXp\=OXp\4FVp\=LYp\4IWq"ORYp\4FVq"XV]p\4FVq"XUYp\4IXp\=LW
+p\4IXq"XUXp\.5Rp\=LXq"ORXp\=LWp\5Kuq"ORXp\4IWp\=LWq"PsMzzzzzzzzzz!"#b$p\4IWq"O
+RYq"XUYq"XUXq"ORYp\=LXp\4IXp\=LXp\=OXq"XUZq"OOWq"ORXq"XXYp\=OYq"OOXp\=OYq"XUXp
+\=LXp\4IXp\4IXq"XUYq"a[Yq"ORYp\4IXp\4IWp\=LWp\=LXq"XUYq"XUYp\=LWp\=LXq"OOXq"XX
+Yq"XUXq"XXZp\4IXq"OOWp\=LWq"XXZp\4FWp\4FWp\=LWq"XUXp\=LXq"OOXq"ORYq"XXYp\4IWp\
+,dKzzzzzzzzzz!!fV"p\4FVq"XUYp\4FVpD3Puq"OOXp\FRYp\=LWq"OOXp\=LYp\4IWp\=OYq"XUX
+q"XUYp\=LXq"OOWp\4IXq"XUYp\4FVq"XXZp\=LXp\4IWp\4FVq"XXYp\=OYq"XUYp\4IXq"OOWp\=
+OXq"XUXp\4IWq"OOXp\=LWp\4IWq"ORXq"XUYp\=LWp\4FWq"ORYp\=LXp\=LWp\=LWq"ORYp\=LXp
+\4IWq"OSSp\4FWp\=LWq"XUXp\,dQzzzzzzzzzz!3Gqhp\=OYp\4IWp\=OZp\4IWp\=LWq"XUYp\=L
+Xp\4IXp\=LWp\=LWq"XUXp\4IXp\4IWp\4FWq"XUYq"ORXq"XUXp\=OXpD<Sup\=OXq"XUXq"XUXq"
+ORY:\a\Yp\4FV+o(g+q"OOXq"OOXp\4IXp\=JQp\4FWp\4FVq"ORXq"OOWq"ORXp\4IWq"XXYp\4FW
+q"OOXp\4FWp\4IXp\=LXp\=LWq"XUXq"OOWp\=OYp\4IWp\=OXq"XV,zzzzzzzzzz!3Gtiq"XUYpHA
+<Hq"OOWq"XUXp\=OXq"XXZp\=OYq"OOXq"OOXq"OP!p\4IXq"XUYq"ORXq"OOWp\4IWp\=LWq"HQ=q
+"ORYp\=OYp\=LWq"ORYp\4FWp\=LWp\4FVq"OOXp\=LXp\4IWp\=OXq"OOWq"XUYp\=OXp\.b`q"OR
+Yp\4FVp\4FVq"XUXq"OOWq"XXZpIFuPq"XUXq"XUXq"XUYp\4LYq"ORYq"OOXq"OOWq"XV!p\=OYq"
+OP+zzzzzzzzzz!Nc%ip\=OXp\=OXp\4FWq"XUYq"XUYp\4IWp\=OYp\=OXq"OOWp\=LWq=saZp\=OY
+p\4FWp\=LXq"XXZq"OOWq"XXYp\4IWq"ORXq"XXYq"OOXp\=LXq"ORYq"XUYp\=LXq"XXYq"XXZp\4
+IWp\4IXq"ORXq"XXYp\4IWq"OOWp\=OYq"XXYp\=LXp\=OXq"ORYq"ORYq"ORXq"XUXq"XXZq"ORXp
+\4IXp\=LWq"XUXq"OOXp\4IXq"OM*zzzzzzzzzz#-@Uoq"OOXp\4IXp\4IWq"XXYp\4FWp\5O!p\4F
+Wq"ORXq"XUXp\=OXp\4IWq"XXZp\4FWp\4IWq"a^Zq"OOWp\=LXq"ORXq"OOWp\4IWq"a[Zq"XUYp\
+4IXq"XUYp\=LXq"XXZp\=LWp\4FXq"ORXp\4FVp\4IWq"ORYp\4FWq"ORYq"ORXq"a[Yp\=OXq"ORX
+p\=OYp\=LXq"ORYq"XUXp\.2Qp\=LXq"OOXq"XUXp\=OXp\=OXq"OP+zzzzzzzzzz#H[^qq"XXYq"X
+UXq"ORYp\4FVp\4FVq"XUXp\=OXp\4IWp\4FWp\4FWq"XUXq"OOXq"XXYp\4FWp\4FWp\4IWp\4IXq
+"ORXq"ORXq"XXYp\-FIq"XXYp\=LXp\=LWp\=LXp\4FWp\4FWpF'DCp\=LWq"ORXq"XXZq"OUYq"OR
+Xp\=OXp\=LWp\4FWq"XUYq"OOXq"XUYp\=LWp\=OXp\4FWq"OOXq"ORXp\4FVp\=OXq"OOXq"ORXq"
+OP+zzzzzzzzzz&Zka%p\4IWp\4IXp\4FVq"XUYq=jXXp\4FWp\=LXp\=LXq"XXYp\=LWp\4FVp\4FV
+p\4IWq"OOWp\=LXq"XUXq=jXYp\4FWp\=OXp\=LWq"XXYp\4IXp\4FWp\4IWp\4IWq"XXZq"XUXp\4
+IWq=s^Zp\=OYp\=LWp\4FVq=jXYq"XUYp\4FVq"ORXp\4FVp\4IWp\4FWp\4IXq"OOXp\4FVp\=OXp
+\4FVq"XUYq"OOWp\4IWq"ORXp\=J*zzzzzzzzzz$EX$sq"XUYq"ORXp\=LWp\4IWp\=OXq"XUYq"XU
+Yp\=OYp\=LXp\4FXp\=LWp\4FVq"a[Yq"XXYp\=OYp\4IWp\4IWq=jXXq"XUYq"OUZp\4IXq"OOWq"
+XXYq"XXZp\=OYq"OOXp\4FVq"XXYp\=OXq"ORYp\4FVq"ORYp\4IWp\4IXp\4IWq"OOXq"XXYp\4FW
+q"XXYp\=LXp\=LWp\=LXp\4FVp\=OXp\=OXp\4FWp\4FWq"XUXq"OP+zzzzzzzzzz$EX$sq"ORX)>X
+%%p\4FVq"ORYp\4FWp\=LXq"XUXq"XS$p\4FWq"XUY8,2lRq=j[Yq"OOXp\=LWq"ORXq"ORXq"XXYq
+"ORXp\4IWq"ORXq"XX[p\=LXq"OOWq"XUYp\=LWq"OOWq"XUYp\=OYp\4IWp\=OXq"XXYq"XXYq"OR
+Yq"ORYq"ORYp\=LWq"XUXq=j[Y(&7Oup\=LWpHA9Gq"ORYp\FRYp\4FVp\4IXq"OOWq"ORY4nnaGq"
+OP+zzzzzzzzzz$EX$tq"XXYq"OOWq"XXYp\=LWp\4FWq"OOWq"OOXp\=OXq"XXZp\4FWq"ORYq"ORX
+q"XXYp\=OXq"ORXp\4FWp\4IWq"ORXp\.2Pp\4IWq"OOXq"XUYp\=Jmp\=LXp\=LWpj`)5p\=LXq"O
+OWq"ORXq"Gp*p\4IWq"ORXp\=LXq"ORXq=sa[p\4IWq"XXYq"XXYq"XXYq"OOXp\=OYp\4FVp\4FVp
+\=LWp\4FVq"ORYq"OOWq"ORYq"XV,zzzzzzzzzz"K_Cmp\=LWq"ORXq"OOXp\4IXp\4FVq"XXYq"XX
+Yp\4IXq"ORYq"ORXp\=LWp\=LWp\=OYq"XXYp\=LXp\4IXp\4IWq"OOWq"XUXq=jXXq"ORXp\4FVp\
+=OXq"XXZq"OOXq"XXZp\4FVp\4LYp\4FVq"OOXq=j[Yq"ORYp\=OXp\4IXp\=LXq=j[Yq"ORYp\=OY
+p\4IWq"XUYp\=OXp\4FWp\=OYp\=LWp\=OYp\=LWq"ORXq"XUXq"OP+zzzzzzzzzz!;H6_p\4LYq"X
+XYq"XUXq"OOWq=jXYq"XUYp\4IWq"XXZq"XUXp\=OYq"OOWp\4IXp\4IWp\4FWq"ORXq"XUYq"ORXq
+"OOWp\4IWq"XXYp\4IWp\=OYq"ORYp\4FVp\4FVp\=OXp\=OYp\4FVq"OOXq"XXYq"OOWq"XUYq"OO
+Wq"OOWq"XUXp\4IWp\=OXp\4IWp\4IYq"OOXq"OOXq"ORXp\=LXp\=LWq=jXXq"ORYq"XXZp\=OYp\
+4FVzzzzzzzzzz#Pe)gq"OOWq"OOXq"OOWpD!Dsq"XUXp\FRYq"XXZp\4DFp\4IXp\=LXp\=LWq"XXY
+q"OOXq"OOWp\4IWq"ORXp\=LXp\=LWq"XXZp\4IWp\=OXp\=LWq"XUYp\=LXq"XUYp\4IWq"OOWp\4
+IXp\4FVp\4IXq"XUXq"XXYp\=RYq"ORXp\4FVq"XUXq"OOWq"OOXp\=OYp\=LXpDNc#q"XUYp\=LXq
+"OOXp\=MSp\4FVq"XUXq"OOWq"ORXzzzzzzzzzz#P[ueq"ORYp\4FVp\=OYq"ORXq"XXZp\4IWp\=L
+Wp\=LXp\FRXp\=LXp\=LXq"ORYq"OOWp\=OXq"XXYq"XXYpHA<Gq"ORYq"XUYp\FRXp\4FVq"XXZp\
+4FVU%e<Uq"OOXC\RVup\=OYp\4FWq"OOXq"XUYp\=LWp\4G#q"ORYp\4IXq"ORXp\=LWq"XXYp\4FW
+p\=LXp\=LXp\4FVp\=LXp\4FVp\=OXq"OOWq"XXZp\4FVp\=OXq"OOXzzzzzzzzzz#Pe&gq"XUXq"X
+UXp\4IXq"XXYp\4FVq"ORYp\4FWp\=LWp\4IWp\=LXq"OOYq"XXYp\4IWq"XXYq"XXZq"ORXq"ORXq
+"ORYp\4FVp\4FVq"XXYp\=LXp\=LXq"ORXp\4IWp\=LXq"XUYp\=OYq"XUXp\=LXp\=LWq"ORYq"OO
+Xp\=OYq"XXZq"OOWq"ORXq"a[Yp\=LXp\4IXp\4FXp\=LWp\4FVq"XUXp\4IXq"OUYp\4IXq"OOXq"
+XXZzzzzzzzzzz#Pe)hq"OOWq"OOXq"XXYp\4FVp\4IXp\=LXq"ORYq"XUYq"OOXp\4FWq"OOWp\4FW
+q"XUXq"XUX(AIUup\4IWq"ORYq"XUXq"OOXq"a^[p\4GZp\4FWp\=LXp\=LWq"OOXp\4FWp\4IXpgN
+slp\=LXq"XUXq"XUXq"ORYp\4IWp\4IW8,2iQp\4FWq"XXZp\4IXq"ORXp\=LWq"XUYq"XUXp\=LXp
+\=OYp\4FVp\4IWp\=LXq"ORXq"XXZzzzzzzzzzz&bl(pq"ORXp\4IXp\=LWp\=R[q"OOXq"Q!,q"XU
+Xq"XUXp\FUZp\=LWp\=LWq"XUYp\4IXp\=LXp\=OXq"ORYq"OOXp\4FVq"ORXp\=LXp\FRXq"OOYq"
+XUYq"OOXp\=LXp\=LWq"XUXp\4FXp\4IXp\4IWq"OOWp\=LXq"XXYq"XXZp\4IWp\=OXp\=LWq"OOW
+p\4IXp\4FXp\4IXq"OOWq"Q!,p\=LXq"X[Zp\=LXp\=OXp\=OXq"ORXzzzzzzzzzz#Pe)hq=jXYq"O
+OXp\4IWp\4FVp\4FWp\=LXq"ORYq"XUYq"OOXp\4IWq"ORXp\=LXq"OOWp\4FW8,)fQp\4IWp\4IXq
+"XUYq"OOWq"a^[p\4Gkq"OOWp\=LWp\=LWq"a^[p\=LXp\4IWpJCYZp\=OYq"OOWq"XUXp\=OXq"OU
+Yp\4IW(ARXuq"OOWq"XUYp\4FVq"OOWp\=OXp\=LXq"XUXq"XUYp\=OXp\4FVp\=OYq"OOWq"OOWq"
+ORYzzzzzzzzzz#Pe&gq"XXYq"XXYp\4IWq"XXYp\4FWq"OOXp\4FWp\=LWp\=RYp\=LXp\4FXq"ORX
+q"ORYq"XXYq"XUYq"XUXq"XXYq"ORXp\=LWp\4FVq"XXZq"XUYq"OOXp\4IWp\4IWp\FRYq"XUYp\4
+IXq"XUXp\4FWp\=OYq"ORXq"ORYq"ORXq"XXZq"ORXp\4FWq"a[Yp\=OYp\4IXp\4FWp\=LWp\=OXq
+"XUXp\4IXq"ORXq"OOXq"OOXq"XUXzzzzzzzzzz#P[ueq"ORYp\4FVp\=OXq"OOWq"XUYp\4IWp\=L
+Xp\=LXp\FRXp\=LXp\FRYq"ORXq"OOXp\4IWq"XXYp\=LWpDNc$q"OOXp\=LWq"XUXq"XUXq"XXZp\
+4FVJbSp5q"OOXZ1n"ep\=OYp\=LWq"OOYp\4FWq"OOWq"OPHp\4IWp\4IYq"ORXq"OOWq"XXYp\4IX
+p\=LXp\4FWp\=LXp\=OYp\4FVp\=OYq"XUXq"XXZp\4FWp\=OXq"ORYzzzzzzzzzz"Shcdq"OOWq"O
+OXq"OOWpIP,Tq"XUXp\FRYq"XUYp\=J#p\=LXp\=LYp\=LWq"OOWq"XXZq"XUXp\4IWq"ORYp\=OYq
+"XUYq"XXZp\4IWp\=OXp\=LWq"ORXp\=LXp\=OXp\=OXp\4FWp\4IXp\4FVp\=OXq=s^Yq"XXZp\4I
+Wq"ORXp\4FVq"XUXq"OOXq"XUYp\=LXp\=OYpHA9Fq"XUYq"XUZp\4FWp\4Fsp\4FVq"XUXq"OOWq"
+ORXzzzzzzzzzz!;Q<_p\=OYp\=OXq"XUXq"OOWq"OOXp\4IXp\4IWq"XUYq"XUXp\=OXp\4FVp\4IX
+p\4IWp\4FWq"ORXq"XUXq"OOXq"OOWp\4IXq"XUXp\4FVp\=OYp\4IXp\4FVp\4FVp\=OXp\FUZp\4
+FVp\4FXq"ORXp\4FVq"XUYq"XUXq"ORXp\=LWp\4IWp\=OXp\4FVp\=OYp\4FWp\=LXq"XUXp\=LWp
+\=OXq=jXXq"ORYq"ORXq"XXYp\4FWzzzzzzzzzz$DR=ip\4FVq"ORXq"OOXp\=OYp\4FVp\=OYp\=L
+Xp\4IXp\=LXq"ORXp\=LXp\=LWq"XUYq"XUYp\=LWp\4IXp\4IWq"OOWq=s^Yq"OOWp\=OXp\4FWp\
+=LXq"XUYq"OOXq"XX[p\4FVp\4IWq"XUXq"XUYq=j[Yq"ORYp\=OYq"XUYp\=LXq"ORXp\4IXp\=LX
+p\4IWq"XUXp\=OXp\4IXq"ORZp\=LWp\=OYp\=LWq"ORYq"XUYp\4G1zzzzzzzzzz$DI7ip\=OXp\4
+FVq"XXZq"XUYp\4FWp\4FVp\4FVp\=LXq"XUXq"ORYq"ORYp\4IXq"XUXp\=OYq"XXYq"OOXp\4IWq
+"XXYp\,g)q"ORXq"OOWp\=OYp\4H5p\=LXp\=LXpga'mp\=LXq"XUYq"XXYq"I;Qp\4IWq"OOWq"XU
+Xp\4IWq"ORYp\4FWq"ORXq"XXYq"XUXp\4IXq"OOXp\4FVq"XUXp\FRXp\=LXq"ORYp\4FVq"ORXq"
+XS2zzzzzzzzzz$DR=iq"ORX55=mIq"OOWp\=OYp\4FVp\=LYq"XUXq"XSHp\4FWp\=LX(&7Ruq=jXX
+q"OOXq"XUXq"OUYq"XXYq"ORYq"ORXp\4IWp\4IWp\4IXp\4FWq"OOXq"XUYp\=LXq"ORXq"XUYp\=
+OYp\4FVp\=OYq"ORXq"XXYq"ORXq"ORXq"OOXp\=LWp\=OXq=j[Z8,2iRq"XXYpDN`#q"ORYp\=LXp
+\4FVq"XXZq"OOWp\4IY)>Eq#q"OP2zzzzzzzzzz$DI7hq"OOWq"ORXp\=LWp\4IWp\=OYp\4IWq"XU
+Yq"OOXp\=LXp\4IXq"XUXp\4FWq"a[Yq"ORXp\=LWp\4IWp\=OYq=jXXp\4FWq"ORYp\4FVq"OOWp\
+=LWq"XXZp\=OYq"ORYq"XUYq"XXYp\4IWDguJJBls+Dq=j[Yq"ORXp\4IXp\4IWp\4FXq=j[Yp\4FW
+p\FUYp\=OXp\=OYp\=LXq"OOWq"XXZp\4IWp\4FWp\4FVq"XUXq=jY3zzzzzzzzzz&Y\sop\4IWq"O
+RXp\4FVq"XUYq"OOWq"OOYp\4FVp\=LWq"XXZp\=LWp\4IWp\4FWp\4IWq"ORXp\=LXq"OOWq=jXYp
+\4FWp\=OXp\=LWq"X[Zp\4IXq"ORYq"ORXq"ORXp\=LXq"XUXp\4LYq"XUYp\4IXp\=LWq"ORXq=s^
+Zq"XUXp\4FVq"ORXp\4FVp\4FVp\4IXp\=RZq"OOXp\4FWp\=OXp\=LWq"XUYq"OOXq"ORXq"ORXp\
+=J1zzzzzzzzzz$DR=jq"ORXq"OOWq"ORYp\4FVp\4IWq"XUXq"XXYq"ORXp\4FWp\=LXq"XUXp\=LX
+q"XXYp\4FWp\4FWq"OUYq"ORYq"XXYq"ORXq"XXZp\/#Cq"XUXp\=LXp\=LWp\4FWp\4IXp\4IXpKK
+EIp\=OYq"ORYq"XXZq"ORXp\4IWp\=LWq"XUXp\4FWq"XUYp\4FWp\=LWp\=LWp\4IWp\4IXp\4FWq
+"ORXp\4FVp\=OXq"OOXq"OOWq"XV3zzzzzzzzzz&>Jsoq"ORYp\=OYq"OOWq"XXYp\=LXp\78Rp\4F
+Wq"ORXq"XUYp\=OXp\4LYq"ORYp\4IXq"ORXq"XUXq"XUXp\=OYq"ORXp\4FVp\4FVq"XUXq"OOXp\
+=OYq"OOXp\=LXq"XUXp\4FVp\4FXq"ORXp\4FVp\4IWp\4FWq"XUYq"ORYp\4LXp\=OXp\=OXq=j[Y
+q"ORYp\=LXq"ORXp\=LWp\5O!p\=LWp\=LXq"XUXp\=OXp\=OXq"OP2zzzzzzzzzz&>Jpnq"XUXp\=
+LWq"OOXq"ORYq"XXYp\4IWq"XXZq"OOXq"ORXq"XUXq"XXYq"ORYp\=LXp\=OYq"XXZp\=LWq"ORXp
+\4IWq"ORXq"XXYp\4IXp\=LWp\4IXq"XUZp\=LXq"XUXq"XUYp\=OXp\4IWq"ORXq"XXYp\4IWq"OO
+Wp\=OYq"XUXq"OOXp\=OYp\4IXq"ORYp\4FVq"ORXp\=LXq"ORXp\4IXq"XUXq"XUXp\4FWp\4IXp\
+4D0zzzzzzzzzz#,:neq"OOXp_ET!q"OOWq>'dZq"XUXp\=RZp\=LXq"OOXq"OOXq"OMQq"XXZq"OOW
+q"ORXq"OOWp\=OXp\=LWq"Ikaq"ORYp\=LXq"OOWq=j[Zp\4FWp\=OYp\4FVq"XUXp\=LWp\=LXp\=
+OXq"OOXp\=OYp\=OXq"QT<q"OOXp\4IXp\4IWp\=OXq"XUYq"OOXpD3Mtq"XXYq"XUXq"XUYp\=OYq
+"OOXp\=LXq"OOWq"XVIp\=LXq"OP2zzzzzzzzzz#,1hdq"ORYp\4IWp\=OYp\4IWp\=LXq"XUYp\=L
+Xp\=OXp\=LWp\=LWq"XUXp\4IXq"ORXp\4FVq"XUXq"ORXq"ORXq"XUXpIFuQp\=OXp\4FVq"XUYq"
+OOX+o(g+p\4FV:\a\Zq"XXZq"OOXp\4IXp\4Cup\4IXp\4FWq"ORXq"OOWq"XXYp\4IWp\=OYp\4FV
+q"OOXq"OOXp\4LYp\=OYp\=LXq"XUYp\4FVp\=OYp\4IWp\=OYp\4D0zzzzzzzzzz!2?4^p\4FVq"O
+OXq"OOWpIG#Qq"ORXp\=LXp\=OXq"OOXq"XUYp\4FWp\=RYq"XUXq"OOXp\4FWp\4IWp\=OXp\4FWp
+\4FVq"XXZq"XUYq"OOWp\4IWq"X[Zq"XUYp\4FWq"ORYp\4FVp\4IXp\=LWp\=OXq"OOXp\4FVq"OR
+Xq"ORXq"XXYp\4FVq"OOYq"XXZp\=OXp\FRYp\=LWq"OOXp\=LXp\4IWq"OP!p\4FVp\=OYq"XUXp\
+-$_zzzzzzzzzz!10GSp\4IWp\4IXq"XXYq"XUXq"ORYp\4FWp\4IXp\=LWp\=OXp\=OYq"OOXp\4IW
+q"ORXp\=OXq"ORYq"XXZq"XUXq"XUYp\4IXp\4IXq"XUYq"XUYp\4FWp\4IWp\=RYp\=OXq"XUYq"X
+UYq"XUXp\=OXp\=OYp\4FWq"XUYq"XUXq"a^[p\4IWq"OOXp\=LWq"XUYq"ORYp\=LXp\=OXp\=LXp
+\=OXq"OOXq"XXZq"ORXq"ORXp\-$_zzzzzzzzzz!10GTq"OOXp\4IWp\4FVp\5O!p\4FVq"ORXq"XX
+Yp\78Rp\4FVq"OOWp\=OYp\=OXp\=OYq"OOWpJL_\q"XXYp\=OXq"ORXq"XUYp\4IXq"ORYp\=LXp\
+=LWq"XXZp\4IXq"OOXq"XUXq"a^Zp\4IWp\4FXp\4FVq"ORYp\=OXp\=M,p\4FVq"XUYp\4IXp\=OY
+p\4IWq"XUXq"GR!q"OOXq"ORXp\=LWp\7;Sp\4FVq"ORXq"XUXp\6*`zzzzzzzzzz!10)Iq"ORYp\4
+FWq"OOXq"XUXp\=OXp\=OYp\=LXp\4FWp\=OXq"OOXq"OOWp\4IWq"XUXp\=OYp\4IWp\4FV8GMuSp
+\=LWq"OOXp\4IWq"ORXq"XUXp\=M[q"a^[p\=LYpE98+q"OOXq"OOWq=sa[p\=LWq"ORYp\4IW,5Cp
+,p\=OXp\=OYp\4IXq"ORXq"OOXq"XUXq"ORXp\=LWp\=LXp\4FXp\4FWp\4FWq"XUXp\=LWp\=OYq"
+H-jzzzzzzzzzz!+;/fp\4IWp\=LXp\4IXp\4FVq"XUYq"XXZp\4FVp\=OYq"XUYq"XUXp\=OXq"ORY
+p\4IXp\4FVp\4IXq"OOWq"XUXp\4IXp\4IXp\=OYq=s^Zp\=OXq"XUYp\=LXp\4FWp\=OXq"XUXp\=
+LXq"XXZp\4LYq"OOWp\4FWq"XUXq"ORXp\4FWp\=LWp\=OXp\4FVp\4FWq"OOXq"XXZp\4IWp\=LXq
+"XUYq"OOXq"ORYp\=LWp\4IWp\-$Bzzzzzzzzzz#@Ntoq"XXYq"OOXq"OOXq"ORXp\=OXp\=OXp\=L
+Xq"OOXp\4FWq"ORXp\=LWp\=OYp\=LXq"OOXpD*Gsp\=OYp\FRYq"OOWq"OOXq"XUYp\4FV,5:m-p\
+=LXq"ORXp\=LWq"OOXp\=OX:A=MWp\=LWq"OOXp\=OYq"ORYp\4IXq"OMRq"XUXq"ORYq"OUZp\4FW
+p\4IWq"XUXp\=LWp\=OYp\4FWp\=LXp\4FVq"XUXp\=LWp\4IWq"HKMzzzzzzzzzz!+;.\p\4IXp\=
+OYp\4FVq"XUYq"OOWpc\Bip\4IWp\=LXp\=LXq"XUYq"XUYp\=LW8,)fRq"ORYp\4FWq"OOWq"ORXp
+\=LXp\4IWp\4FWq"XXYq"XUYp\=LXp\4IWq"ORYp\=LXp\=LWq"ORYq"XXYp\=OXp\=LWp\4IWq"OO
+Wq"XUXp\=OYq"ORX(AIRuq"XUXq"XUYq"OOXp\4FXp\4FVpHA9hq"XUXp\=LXq"ORXp\=OXp\4IXpF
+\0-zzzzzzzzzz"WE_pq"ORYp\=LXp\4IWq"XXZp\=LXp\4FWq"XXZp\=LXq"OOWq"XUYp\=OXp\4IX
+q"ORYq"OM[q"ORXp\4IWp\=OXp\4IXq"ORYp\4IWp\.baq"XUXp\4FWq"XXYq"OOXq"XUYp\4IXp\6
+lGp\=OXp\=OXq"XXYp\4IWp\4FWq"ORXq'Ge0q"XXYp\=OXp\4IXp\=LXp\4FVq"XUYp\=OYp\4FVq
+"XUZp\=OXq"ORXp\4FWp\4IWpF\3&zzzzzzzzzz!#en)q"XUYp\=OYq"ORXq"ORXp\=LWq"X[Zp\=L
+Xp\4IXp\=LXp\4FWp\=OXq"OOWp\=LWp\4IWp\=OXq"ORXq"XUYq"XXYq"ORYq"OOXq"XUXq"OOXq"
+XXYp\4FWp\=LXq"ORYq"OOWq"OOXp\=LWq"XXYp\4FWq"OOXq"ORXq"XXYp\4IWp\=OYp\4FVq"OOX
+p\=OXq"XUXp\=OXp\FUZp\4IXp\4FWq"ORXq"XXYq"XXYq"XUXpc&<Vzzzzzzzzzz!#en)p\4FVq"O
+OYq"XXYq"OOWq"XUYq"XXZq"ORXp\4FWp\=OXq"XXYp\4FVp\=OZp\=OXp\4IXp\4FVq"OOXq"G[#q
+"OOWp\4IWp\=OXp\4FVq"XUYq"OOXp\=OXp\4IXp\=LXq"XXZq"ORXq"ORYp\4IWp\4IWp\7;Rq"XU
+Yq"OOWp\=LWp\4IWq"XXYp\4FWq"OOXq"ORYq"XUYp\4IWq"XXZq"XXYp\=LXq"ORYq"XUYq"XUXpE
+p"Dzzzzzzzzzz!#ccCR.pCMp_NZ"q"OOX4o"gIq"ORXp\=OXq"OOWq"XUY(&.Luq"OMQq"XUYq"XUX
+q"XXZq"ORZp\4FWp\4IWq"XXYp\=LWp\=OYq"OOXq"ORXp\4IWp\FRXp\=OXq"XXZp\4FXp\4FVp\4
+IWp\=LWq"XXZp\4FVp\4IXp\4IWp\=LXp\O[Zq"OUYq"OOXq"XUXp_NZ!q"XUX8,2iRq"OOXp\4IXp
+\4FWp\=LX)>Nt#p\=MRq"OOW/gg]%zzzzzzzzzz!#liDQhU:Mp\4IXp\FRXq"ORXq"OOXp\4IWp\4I
+Wp\4IWp\=LWp\4IXp\=LXp\=LXq"XXZp\4IXp\=LWq"OOWq"ORYq"ORXp\4IWp\=LWq"XUXq"XUYp\
+=LWq"XXYp\4IXq"OOXp\4FWq"OOXq"XUZp\4IWp\4LXq"XUYq"XXYq"OOXp\=OXp\=OYq"XUXq"XUY
+q"XXYp\4FWp\4IWq"ORXp\4FVp\=LWq"OOWq"XUYq"ORXp\=OX/gg]%zzzzzzzzzz!#ccCR/$FMp\=
+LWp\4FWq"ORXp\4FVp\=LXq"XUYp\=OYp\4FWp\=LWp\=OXp\=OXq"XUYp\=LXp\4IXq"OOWp\=OYq
+"XUXq"XXZp\4IXp\=OYp\=LWq"ORXq"XXYp\4IXq"ORXq"OOXq"XXYq"XXYp\=LWq"XUYp\=OYp\4F
+Vq"XXYp\4FWq"XXYq"ORYp\4IXq"OOXq"OOWp\=OXp\=LXq"XUYp\4FWq"ORXq"XUXp\4IXp\4FW/g
+g]%zzzzzzzzzz!#liCQ^IOAp\4FWp\4IWq"XUXq"XUXp\4IWp\4IXp\4FXq"ORYp\4FWq"XUXp\=LX
+q"OOWp\=OXq"ORXp\=LXq"OOWp\4IXp\=M$q"OOWq=j[Zp\=OXp\4IXq"XXYq"XUXq"XXYp\=OYp\=
+LXq"XUYpd+]Lp\=OXp\4FVq"XUYq"ORYp\4IXp\=LWq"OOXq"OOWp\=LXp\=OYq"XUXp\=OXp\=OXp
+\4IXq"OOXq"XXYp\4FVq"XS9/gg]%zzzzzzzzzz!#caoQ^IM1p\4IWp\=OXp\4FWp\4FVq"ORXp\4F
+Vp\78Rp\=LWq"ORXq"XUXp\4IWq"XXZq"OOWp\4IXq"XXYq"OUYp\4IWp\FUYq"XXZq"ORXp\4FWq"
+XUXq"OOWq"OOWq"OOXq"XXYp\4IWp\4IXp\=LYp\4FVp\4IXq"XXYq"XUXq"ORXq"ORXp\4LXp\=LX
+p\4FVq"OOWp\5O!p\=LWp\4IWq"XUYq"XUXq"OOWq"OUZpDN]X3"5ojzzzzzzzzzz#9"L,Q^IRBp\=
+OXq"OOXp\4FWq=j[Yp\=LWp\4IWq"OOWq"OOXp\4FVq"ORXq"a^[q"XXZq"ORYq"OOXp\=OXq"XXYp
+\=LWq"OOXq"OOWp\4FWp\4IWp\4IWp\=LWp\4FVp\=OYp\4IWp\=LWq"ORXq"XUXq"ORXp\=LXp\4I
+Xq"ORXq"OOWq"XUYq=s^Zp\4IWq"OOWp\=LWq"OOXq"ORYq"OOXp\4IWp\=OXq"XUYp\=LWp\=M9/e
+%j`zzzzzzzzzz#8ng6)OQodp\=OXq"XUYq"XUXq"OOWq"OOXq"ORXq"OOWq=sa[q"XUXq"ORXq"ORY
+p\4IXp\=LWq"XXZq"OOWp\4FXp\4IWq"ORXp\4FVq"XXZp\=LWp\=LXp\4IXp\=OXp\=OXp\4FWp\4
+FWq"OOXq"ORXp\=LWp\=OXp\4FWq"ORYq"OOXp\=OXp\4IWq"OOWq"OOXq"OOWq"XXYp\=LWp\=LWq
+"OOWq"XUYq"OOXq"OOXp\-9m/e&!lzzzzzzzzzz#9OWu)OQldq"XXYp\4IXp\4IXq"ORYq"ORXq"a[
+Yp\4IWq"OOXp\4FVq"XXYp\=OXp\=OYq"ORYp\4FWq"OOWq"XUXq"XUXq"XUXq"ORYp\4IX*;B4%p\
+4FVq"XXYp\4IXq"ORXp\4FV<;?7_q"XXYq"ORZq"OQ(q"OOXq"OOWp\=LWp\=OXq"XUYp\4IWp\4IX
+p\=OXp\4IWq"ORXp\4FWq"OOWp\=OXp\=OXp\=OYp\=LXq"QI%#m(/;zzzzzzzzzz#8@jj)NC-Yp\4
+FWq"OOWq"XUYp\=LWpdk2Sp\4FWp\=OXp\4IWp\=LXq"ORYq"OOXp\4FVp\=LWp\=OYp\=LXp\4LXq
+"XUXp\=LXq"XXYq"ORXp\=OXq"XXYp\4FVq"OOWp\4IXp\=OYp\4IXq"OOWq"a[Zp\=LWq"OUYq"XU
+Yp\=OXq"ORYp\4FVp\=OYq"XUXp\=LXq"ORXp\4FWp\FRYp\4Fuq"OOXp\=LYq"ORXq"XUYp\6a$!W
+iE)zzzzzzzzzz!#-+])B+s0q"XXYq"XXYp\4FWq"OOXq"OOXq"XUYp\=LWp\=OYp\4FWp\4FVq"OOX
+q"ORYq"X[Zp\4FWp\=LXq"OOWp\FRYp\=OXp\=OYp\4FWq"OOWp\4FVq"XXYp\4FWp\4IWp\=LWp\=
+LWp\=OYp\4IXp\=OYp\4FVq"XUYq"XUXp\4IWq"ORYp\=LXq"XUYp\FRXq"XUYp\4FWp\4FVp\=OXq
+"XUXp\=LXp\4IXq"ORYpb"Q1!WiE)zzzzzzzzzz!#-+])B4[&p\5Kuq"ORXq"OUYp\=OYp\=OXp\4F
+Vq"ORXp\4FWp\78Rq"ORXq"OOWq"a[Yq"OOWq"ORYp\4IWpI=oOp\4FVq"OOWq"OOXp\4FVp\4IWq"
+XUXp\4FWq"XUXp\4FWq"ORYp\=LXp\=LWq"XXZq"XUXp\4D.p\=OYp\=OXq"ORYq"XUZp\=LWq"ORX
+p\5U$p\=LWp\4IWq"OOWp\=OYp\4IWq"ORXq"XUXq"RARpF\'%!WiE)zzzzzzzzzz!#-+]'H0]5q"O
+RXp\=RYp\=LXq"OOWq"OOXp\=OXp\=LWp\=OXp\4FVq"OOXq"OOXp\4IWp\4IXq"XUYp\=LWq"OOXp
+\=OYp\=OXp\=LXp\=LXq"XUXp\4FWpaZ(5p\4Gbq"XXZq"OOXq"XUYq"XXZp\4IXp\=OXp\=LWq"OO
+Xp\4FWq"XXYp\=OXq"XUXp\4IXq"OOWp\4IXp\=LXp\4IXp\=LWq"OOWq"OOXp\=OYp\4IWpb`3Y!W
+iE)zzzzzzzzzz!#61^'H.mLR/$IOp\4IX8,)cQp\=LWq"ORXq"ORYq"OOXp\4FVq"OOWp\4IXp\=OY
+p\4IXq"OOXq"ORZp\=LWp\=RZq"ORXq"XUYq"ORYp\4IWp\4IWp\=LXp\=LXq"XUYp\=LXp\=LXq"O
+RXp\=LWq"OOXq"OOXq"OUZp\4FVp\=OXp\=LWq"OOWp\4FWp\4IWp\4FWq"OOWp\4FWq"OOWp\=OXq
+"ORXp\=LX(AR\!p\4IX/hR;2!WiE)zzzzzzzzzz!#-+]'GMIGNq`>Cp\4IXq"XXYq"XUXp\4FVp\=L
+Xp\4IWq"X[Zq"OOWq"XUXq"ORXp\4FVp\=OYp\=LWq"XXZp\4FVq"OOXp\FRYq"ORXq"XUYq"XUYq"
+OOWq"ORYp\=LWq"OOWq"ORYp\4FXq"OUYq"XUYq"XXYq"OOXp\4IXp\4FWp\=OYp\4FVp\4FVq"ORX
+q"ORXq"ORYq"ORXp\=OXp\=LWq"OOXq"ORYq"XXYq"ORX/ia(=!WiE)zzzzzzzzzz!#-+]'GM6`Nqi
+ADp\=OXq"OLtq"OOXp\=LXq"ORXpc\EIp\4IWq"XUYq"ORXp\4IXq"ORZp\=LW8,2lSp\=LXq"XUYp
+\4FVq"ORXp\=RYp\=LWp\4IXq"ORXq"OOXq"XUXp\=OXq"XUXp\4FWp\4IXq"OOXq"OOWp\=OYq"XU
+Xq"ORY.ei]4p\=LWq"XXYp\4IWp\4FWp\4FVq"OP%q"OOWp\=OYp\=RYpdk/Rp\4IXp\=LX2%9]j!W
+iE)zzzzzzzzzz!#-+]'GM6_NfNl/q"XUXp\=OYp\4IXp\=OXq"OOWq"XUXq"XUYp\=OXq"XXZq"XUY
+q"XUXp\=LXp\4FWp\4IXp\=LWp\=OXp\4FVp\4FVp\4IWp\4IWp\-iGq=jXXp\4FVq"PBop\4FWp\=
+OYp\=LWp\=LWp\=OYp\4FWp\4IXq"OOWp\=LWq"OOXq"XUXp\=LXp\4IWp\4IWq"XUXq"OOXq"ORYq
+"ORXp\4IXp\=LWp\=J83=Qi1!WiE)zzzzzzzzzz!"Tb]+!21<=H3+Mp\=OYp\=OYq"XUYq"OOXp\=O
+Xp\FUYp\=LWp\4IWq"OOXp\=LXp\=OXq"OOWp\FUZp\4FVp\4FWq"OOWp\=LXq"XUYq"XUXq"OOXq"
+XUXp\4IWp\=OXp\4FWp\4IWq"OOXp\4FWq"XUYp\4FVp\=LWp\4FVp\=LXp\4FWp\4IWp\=LXp\=LW
+q"ORXq"XXZp\4IXq"XXYp\=LWq"XUXq"XXZp\4FWp\4G8%2'3Z$3C81zzzzzzzzzz#7h=d*Y];&9ob
+5.p\=LXp\4IXq"ORXp\4FWq=s^Yq"OOWp\=OXp\4LYp\=OXp\=LWq"ORYq"XUYp\,3mp\4IXp\4FVp
+\=LWq=jXXp\=LXp\=OYp\4IWp\4FVq"XUXq=jXYq"XXYp\4IXp\=OYp\=LWp\4FVq"OOXp\4IWq"XX
+Yp\-iFq"OOXq"XXZq"OOXp\4IWp\=OXp\4FWp\4FVq"ORYq"OOWp\=OXq"XXYq"XXYq"H[,"UP>6$4
+7+Izzzzzzzzzz#8nBi*u#D''Ng?Tp\4IWq"XXYp\4FW4o"gH&,5knq"XXYp\4IXq"OOXq"OOWq"XSH
+p\=LWp\=OYp\4IXp\4FWp\=LXq"OOWp\4IWp\=LXq"OOXp\=OYq"ORXp\4IXp\=LWp\4IWq"OOXp\=
+OYq"XUXq"ORXp\=LWq"XUYp\=LWp\4IXp\4IXp\4FWpDN`"q"OOWq"XUYq"ORXq"ORYq=saZ4o"gH)
+Yj($p\4IXq"ORZpGOW1"U+r/!Wi]9zzzzzzzzzz!#Z=Y%ho]m'GZXfp\4IWp\=LXp\4FWp\4IWq"XU
+Xq"OOWq"X[Zp\=LWq"ORYp\4IXp\=LWq"XXYp\4FVp\4IXp\4FVp\4FVq=s^Yq"XXYpJ:SYq"OOWp\
+4FXq"OOXp\4FVq"XXYp\4FVp\4D"p\4IXq"OOXq"ORXp\4FVp\=OYp\4FVp\=OYq"XXYp\=OXq"XXY
+q"ORXq"ORXq"ORXp\4FWq"XXZp\=LXp\=OXq"XXZpGFQ-"U+r/!Wi]1zzzzzzzzzz!"TSN%hB?g'GO
+9%NqiACp\4FWp\4IXq"XXYp\4FVq"ORXq"ORXq"OUZq"ORXp\=LWq=saZp\4FVp\=OZp\=LWp\4IWp
+\=LWp\4IXq"OOXq"OOWp\4IXp\=OXp\4FVq"XUYq"ORYp\=OXp\4FVq"OOWq"XUXq"ORYq"ORXp\4I
+Wp\=OYp\4FWp\4IXq=jXYp\4IWp\=RYq"OUYq"OOXp\4FVq"ORYp\4FVp\=LWp\=LX2)PO@"U+r/!W
+iE)zzzzzzzzzz!"TSN%hB?g'GV=BNq`;Bp\4IWq"OOWq"OOXq"XXZp\4IWq"OOWq"OOW)>Eq$p\4IY
+p\4FVp\=LWq"XUXq"ORXp\4Frp\4FWq"OOWq"XXYp\=OXq"XXYq"ORZq"ORXp\4IWq"a^[q"ORXq"O
+RXp\4FWq"OOWq"XUXpI=rPp\4IWq"OOXq"OOXp\4FVp\FRXp\=OX621-Jq"OOWq"OOWp\=OXq"XUXq
+"OOXq"OOWq"OOX2(f%:"pG&0!WiE)zzzzzzzzzz!"TSN%hB0]'GM(;NK3`rp\4LYp\4IXp\=OXq"XU
+Xq=saZpCI#mp\7ATp\=OXq"XUXq"XUYp\4IWp\4IWp\4FVp\=LXq"OOXq"XXYq"XUYp\=OYp\4LXq"
+ORXq"XUYq"OOXq"ORYq"OUYq"XUYp\=LXq"OOXq"OOXp\FRYp\4FVq"XXYp\4IWp\=LXp\4FVq"ORY
+p\,O"p\=JGp\4IXq"OOXp\4FWq"XXYp\=OXpDWfa2(f%9"Te`,!WiE)zzzzzzzzzz!"TSN%hB0]'GM
+5rNK*`-q"XUYq"XUXp\4IWq"ORXp\4FWq"XXYq"XUYq"XXZp\4FVp\4IWp\=OXq"ORXp\FUZq"ORXp
+\4FWq=jXXq"XUXq"XXYp\=OXq"ORYq"ORXq"ORXq"XXYq"ORYp\4IXq"OOXp\4FVq"XUXp\4FVp\=O
+Yp\4FVq"XXZq"OOWp\4FVp\4IXq"XUXp\4IXq"XXYp\4IWq"OOWp\4FWp\=LXq"OP@5Qq;q"Te`,!W
+iE)zzzzzzzzzz!"TSN%hB0]%ho]lNK0%np\4FWp\4FWq"ORXq"OOXq"XUXq"ORXq"ORYp\=LWq"XXZ
+q"XXZq"OOWp\=OXp\4FWp\4IXq"OOWp\=LXp\4IWp\4FWp\4IXq"ORXq"XXYq"XXYp\4IWq"XUXq"O
+OWp\4FVp\=OYp\4FVq"XXYp\=LWp\4IXp\4FVp\4IWq"XXZq"ORXp\4FVq"ORXq"OOXq"XUXq"ORXq
+"XUXp\=LWp\-O12$F-e"Te`,!WiE)zzzzzzzzzz!"TSN%hB0]%hB?r+,u8?p\4IWp\4IWp\4IXq"OR
+Xq"OOWq"XXZq"ORYq"XUYq"ORYp^d,nq"XUXp\=LWp\4IXp\=OXq"XXYp\4FW*r#F(p\=LXq"OOWp\
+=OYq"OOXp\4FWq=jXYp\4FVq"ORYp\=OX=nqacp\4IXp\4FWp\=OXp\4FWp\4IXp\=JGq"OOWq"OOW
+q"ORXp\=OYp\4FVq"OOWq"XUYp\=OXp\=OYpGFfc&.f!L"Te`,!WiE)zzzzzzzzzz!"TSN%hB0]%iH
+6+'GZUep\4LXq"ORYq"XUYq"ORXpdb,Rp\=OYq"OOWq"OOXq"OOXp\4IXp\=LWp\FUYp\4FWp\=LYq
+"OOWp\4IWq"XUXq"XUYq"OOWq"OOXp\=OYp\=OXp\=LWq"XUXq"OOXp\4FWq"OUYp\4FVp\FRYp\=L
+Wp\4IYp\4FWp\=OXq"XUXq"XUXq"XUYq"OOXp\=M"q"ORXp\=LXq"ORXq"XXZpGG2N"U,&5"UY;4!W
+iE)zzzzzzzzzz!"TSN%hB0]%iH5q'GQ4\NVE5Bq"ORYp\FRYq"OOWq"OOXq"XXYp\4IWq"XXYq"XXY
+p\=OYq"OOXp\4FWp\4IXp\=LWp\=OYp\=LXp\4FWp\=OYp\4IWp\=LWq"XUXq"OOXq"OOXp\4IWp\=
+OXp\=LWp\4FWp\=OYq"OOXq"XXYp\=LWp\=LWq"XUXq"OOXq"ORXp\4IWp\4IXq"XUXq"OOYq"XUYp
+\=OXp\=OY2*a#&"U,&5%KZ\5!WiE)zzzzzzzzzz!"'&D%hB0g%hB0]%i#e3NqiDDp\4FVq"ORXp\4I
+Xq"XXYp\=LWq"OUYp\=LXp\=LXq"ORXp\4IWp\=LXp\4FVq"ORZq"OOWp\4FVq"XUXq"XUXq"ORYp\
+4FVp\4IWq"ORXp\4IXp\4FVp\4FWq"OOWp\4FWp\=LWq"XUXq"OOXp\=OYp\4IWp\4FVp\=LXp\=LX
+q"ORXq"OOXp\=OYp\4FVp\4IXq"XUXp\4FW2)P^E"U,&5!Wi`2!WiE)zzzzzzzzzz!"'&?%hB0b%hB
+0]%hB@CKT>g%q"XUXq"OOXq"XXYp\4IXq"ORYp\4FVp\4LXp\4IXp\=OYq"XXYq"GX#q"XUYp\=LWp
+\4FWp\=LXq"XUXp\=LWpCI#mp\4IWq"OOWq"OOXq"XXYp\4GGp\4FVp\4FWp\=LYq"XUYp\4FVp\OX
+Zp\75Pq"ORYp\=LXp\=OXq"OUZp\=LWp\4IXq"OOXp\4IXq"OOWq"ORYq"XVA2@9Tk"U,)6!WiE)!W
+iE)zzzzzzzzzz!"'&?$4dXX%hB0]%hB?gKT5d%p\4LX8,2lRp\4FVq"OOWq"OOWp\=LWq"ORXq"OOX
+p\=LXq"OOWq"XXZp\4IXp\=LXp\=LWp\=OXq"OOXp\=LXp\4IXq"ORXp\4IXp\=OXp\4IWq"XXYp\=
+LXp\=LWq"ORXp\=LXp\=OYp\=LXp\=OYq"OOWq"XUYq"ORXq"OOWq"XUYp\4IWq"OOWq"OOWq"ORY(
+\d_!p\4G?2$sNk"U,&5!WiE)!WiE)zzzzzzzzzz!"'&?$47+N%hB0]%hB0]7>-?gq"OOWq"ORYp\=O
+Xp\4IXq"XUYp\4FVq"XXZq"OOXp\4FVp\4IXp\=LWp\FRYp\4FWq"OOXp\=OXq"XUYp\=LWq"XUXp\
+=OYq"ORYp\4IWq"XXZq"ORYq"XUXp\=LXp\4FWp\=LWq"XUYp\=OYp\4FWp\4IXp\4FWp\=OXq"XXZ
+q"OOWq"OOWq"ORYp\4IXp\=LWq"XUXq"HX*$46q?"U,)6!WiE)!WiE)zzzzzzzzzz#7:eF$47+I%hB
+0]%hB0]'SM."p\4IWp\=OXp\4FWq=j[Yq"OOWp\=OXp\4IWp\FRXp\4IWq"OOXp\=LXp\4IW7elfRq
+"XUXq"XUYq"OOXp\=OYp\=OYp\4FVp\=LXq=jXXp\4FVp\4IXp\4IXq"XXYq"XUXq"XUYq"ORY(\d\
+!p\FRYp\=LXq"ORXp\4FXp\4IWp\4IXq"OOWq"XXZq"XUXp\4IXq"ORXpH(K&$4I(A"U,&2!WiE)!W
+iE)zzzzzzzzzz#7:eF$47+I$47:S%hB0]%iJ/rp\4FWq"OOXq"ORXp\4IWq"ORYq"OOXq"ORXq"OOW
+p\=LXp\FUZp\=LXp\=OYp\4Cop\=LWp\4FWp\=OYq"OOXq"OOWq"ORXp\,j*p\.JYp\4IWq"OOWq"X
+UXq"XXZp\4FWp\4FVpJL\Zq"XUYp\4FWp\=RZp\=LXp\=LWq"OOWq"XUXq"XXZq"ORXp\4FWq"OOWq
+"XUXpb`Zs%g<+?"U,&2!WiE)!WiE)zzzzzzzzzz!"'&?$47+I$47+N%hB0]%iJ/=KD>38q"XXYq"XU
+Yq"ORXp\4FWp\FRXp\4FWq"XXZp\=LXp\4FVq"ORYp\=LWp\FRYq"OOXp\=OYq"OOWp\=LWp\=OXq"
+OOWq"OOXp\=OXq"OOWq"XUYp\4FWp\4FVp\4IXp\4FVq"XUYp\4FVp\=OYp\4FVq"XUZp\=RYq"XXY
+p\4FWq"OOWp\4IWq"XUXp\4IXp\=LW2%gN7"U5,6"U,&2!WiE)!WiE)zzzzzzzzzz!"'&?$47+I$47
++I%hB0])%RT]KS9-qp\4Fnq"XUXp\=LXq"XXZp\=LXp\4IWp\4FVq"PBpp\4IWp\4FWp\=LXq"OOWq
+"XXYp\=LXp\4FVq"OOXp\4FVq"ORXq"XXYp\4IXq"OOWp\4FVp\=LWq"XUYp\=LXp\4IXp\4FVq"XX
+Zp\4FVq"ORYp\6oHq"OOXp\=LWq"XUYp\=OXq"XUXp\4FVpc\EHq"OPH2%L$$%LrXG"U,&2!WiE)!W
+iE)zzzzzzzzzz!"'&?$47+I$47+I$47Xg%hB0]%toW1q"XUXp\4IXp\=OYp\4IWq"OOXq"OOWp\4FW
+p\4IXp\=JPq"XUYp\=LXq"ORYp\4FWp\4IYp\4IWq"XUXq"OOWq"OOWp\4LXp\4IWp\4FVq"XUXq"O
+RXp\4IXp\=OXq"XUXq"XUXp\=OXp\=LXp_W]"q"ORXp\=LWp\=LWq"ORXq"OOXp\=OYp\=OXp\=LXq
+"Hp/$jm=O"V1b?"U,&2!WiE)!WiE)zzzzzzzzzz!"'&?$47+I$47+I'GV)q%hB0]%toUhq"ORXq"XX
+Yq"XUXq"XUXp\4IWp\=LWq"XXYp\4FWp\4FWp\4FWp\4IXp\=LWq"XXYp\4FV)#*e"q"XUXp\=OYpc
+eHHq"XUYq"ORYq"OM"p\4IXp\4FVp\=LW7ec]Pp\4IYq"OOYq"OOWq"XUXq"XUXp\=LWp\4IYp\4FW
+p\4IWp\=OYq"OOWq"XXZq"ORXpH:Ak$47+D"U,AG%Kun8!WiE)!WiE)zzzzzzzzzz!"'&?$47+I$47
++I'GLl]%hB0]%hF>GK_bB:p\4LXq"ORXp\4IWq"a[Yq"OOWq"ORXp\4IXp\=LWq"ORXq"XUYp\=LXq
+"OOWp\4IXp\=LWq"XUXq"XUYq"ORXp\4IXp\4IWp\4FVq"XUYq"ORYq"OOXp\4IWq"OOXp\FRXp\=L
+Xq"XXZp\=LWq"XXYp\4FVq"ORXq"ORYq"ORXp\4IWq"ORXp\4FX4ZtY0$46q?"U5,?%LiI@!WiE)!W
+iE)zzzzzzzzzz!"'&?$47+I$47+I$47+I$47:S%hB2(K_P9:q"OOWq"OOX&,5knp\4FVp\=OYp\4IX
+q"OOXp\=LXp\4D!q"XUYp\=LWp\4IWq"XXZp\4IWp\4FVp\4IWp\=OYq"OOWp\=LXq"XXYp\4IXp\4
+FVp\4FVq"XXYq"XXYpKq8$p\4IXpdY#Qp\FRXp\=LWq"XXZp\4IXp\4FVq"ORX4nn^Fq"XXZq"ORX4
+Z*QR$OR%@"U,&5"V(nJ!WiE)!WiE)zzzzzzzzzz!"'&?$47+I$47+I$47+I$47+N%hB0]KS5$Qq"OO
+Xp\4IXp\4FVq=j[Yq"XXZp\.2Pp\=OXp\4FWq"XUYq"XUYp\=OXq"XXZp\=LXq"ORXp\4IWq"OOXq"
+XXYp\4IWq"OOWp\=OZq=s^Yq"OOXq"ORXq"XUYp\4FVq=j[Zp\=LXp\4IXq"OOWp\=OYp\,Hup\4FW
+q"ORXq"ORXp\=OXp\=LWq"Hp78.Q%7$3^S:"U,&5"U,8A!WiE)!WiE)zzzzzzzzzz!!N]:$47+I$47
++I$47+I$47+I%hB0]%toW2p\=OXp\=LXq"ORXq"ORYq"XXYq"OOXq"ORXp\=OYp\=LWq"XXZp\4FWp
+\=OYp\4FVp\=LXp\=OXq"OOWq"XXYq"XXYq"ORYp\=OXq"OOWq=jXYq"OOXp\4IWp\=OYp\=LXp\=O
+Yq"OOXp\=OYp\4FVq"XUXp\4IXq"OOWq"XUXp\=LWp\4LXq"HpB2$sZt$3^S:"U,&5"Te`,!WiE)!W
+iE)zzzzzzzzzz!!WT1"UYSD$47+I$47+I$47+I$47:S)&\'Zq"XUYq"ORYq"OOXq"XXYq"ORXq"XUX
+p\4FVq"ORYp\4IXq"OOWq"XXZp\=OXq"OUZp\4FXp\4IWq"ORXq"XUXq"ORXq"OOWq"ORXq"ORXq"X
+XYp\OXYq"OUYq"OOXp\4FWq"OOWq"XXYq"XXYq"ORYp\4FWq"OOWp\4IXq"XUXq"XXYq"OOXpcV._$
+47+I$3^S:"pG/6"Te`,!WiE)!WiE)zzzzzzzzzz!!NN0"U,);$47+I$47+I$47+I$47+I%hBP2K_Y?
+:p\4IXp\=LWp\4IXp^d,nq"ORXp\=OXp\=OXq"XUXq"OOXp\=LY)#*e!p\4FVq"OOXp\=LXq=jXXp\
+=LWp\4IWp\4LXq"OOXp\4IWq=jXYp\=LWq"ORYp\4FW7elcRq"XUXq"OOXp\=LXp\4IWq"XXYp\4DF
+q"XXYp\4IWp\=OXp\=OX4\-(j$47+I$3^S:"U,&5"Te`,!WiE)!WiE)zzzzzzzzzz!!WW2"U,&5"UY
+SD$47+I$47+I$47I]$4dY1KS0'oq"XUXp\4LXpHA<Gp\4IWp\FUYq"XXYp\4FWp\4FWp\=LWq=s^Yp
+\4FVq"XXZp\4FVq"OOWq"ORYp\=LWp\=OXp\4IXp\4IXp\=OXp\4IWq"OOWq"XUYp\4FWq"XUXq"XU
+Xq"a[Yp\4FVq"ORYq"OOXp\4IWp\=Lop\4IWq"XUYq"OPH6OsM2$47+I%0Zn="pG/6"Te`,!WiE)!W
+iE)zzzzzzzzzz!!NN0"U,&5"U,&:$47+I$OR4J$5=0g$47:S%sim&p\4FWq=j[Yq"OOXq"XXYp\4IW
+p\4IXp\4FWq"OOXq"XXZp\=LWp\=OXp\4FWq"ORYp\4FVq"XUXp\4IWq"XUXp\4IXq"ORXq"OOWq"O
+OWq"XXYp\=LWp\4IXp\4FWp\=OYq"OOXq"XUXp\=LWp\4IXp\4IWq"XXYq=j[Zq"XUXp\-g64V%l,$
+47+D"U,&5"U,&5"Te`,!WiE)!WiE)zzzzzzzzzz#6b87"U,&5"U,&5"UYSD$47+I'ab9T$47+I%m>8
+mq"ORXp\4IXp\4IWp\=LWq"ORYp\=LXp\4IWp\=LXq"XUXp\FRYq"ORYp\4IWq"OOXq"XUYp\4FVq"
+ORXq"XUYp\4IWp\4IWq"OOWq"OOXq"XUXp\4IXp\4LXp\FRYq"XUYq"ORYp\4IXp\=LXp\4IWp\4FW
+q"OOWp\=LWp\=OXpH:YM%giXN$47CL"U,&5"pG/6"Te`,!WiE)!WiE)zzzzzzzzzz#6b87"U,)6"U,
+&5"U,&5$47+I'FG0S$47+I$4fCJK_P69q"OOWp\4IWq"XXYp\=OXp\,R"q"OOXq"OOXp\=LXp\=OXp
+\FRXq"OOXp^d,op\4FVp\=OYq"OOXq"OOWq"ORXq"OOWp\=OYp\4IWp\=JHp\=OXq"XUYp\=OYp\4F
+Vp\=LXq"XUXp\.,Np\=OYp\=OYq"ORXp\4FWq"XUY6Tu7r$47+I$46q@"U,&5"U,&5!WiE)!WiE)!W
+iE)zzzzzzzzzz!!WT1"U,&5"U,)6"U,&5"U,5?$47+I$47+I$47;57saq)p\4IXq=jXXq"XUYp\=LX
+p\4IXq"XXYp\=LXp\4FWp\4IXp\4FVp\=LXp\=LWp\=LXq=jXYp\4IWp\=OXq"ORXp\4IXp\=LWq"O
+OWq"OOXp\=OXp\=LWp\=OXp\=LXq=s^Zp\4FVq"XXYp\=LXp\4FWq"XUXq"OOWp\4GZ(DdSm$47+I$
+46q?"U,&5"pG/6!WiE)!WiE)!WiE)zzzzzzzzzz!!NN0"U,)6"U,&5"U,&6"U,&5$47+I$4@1J$47+
+S7s]LVq"OOWp\=OXp\=LWp\4FVq"XXZp\4IXq"OOXq"XUXp\=LWp\=OYp\=LWq"XUXp\4FVp\=OXq"
+ORXq"OOXp\4IWq"ORXp\4IXp\4IXp\=OYq"OOXq"XXZp\4FWp\=LXp\=LWq"XXYp\=LXq"ORXp\4FW
+p\4IXp\=LWq"HpB(_75d$47+I$3^S:"U,&5"U,&5!WiE)!WiE)!WiE)zzzzzzzzzz!!NN0"U,&5"U,
+)7"U,&5"U,&5"pG>@$47+I$47+I'M!Iqp\4IWq"XUXp\4IXq"ORXq"XUXp\4FWq"ORXp\=LXq"XUYq
+"OOW8,2iQp\=OXp\4FWp\=LWq"ORXp\=LWp\=LWp\=OYq"XUYp\=LWq"XUYp\=LX(\d_!p\=LXq"OO
+Xq"ORXq"XUYp\=LXq"ORYq"ORYp\4FWp\4IWpdI^i(CCKV$47+I$3^S:"U,&5"U,&5!WiE)!WiE)!W
+iE)zzzzzzzzzz!!NN0"U,&5"U,&5"U,&5"U,&5"U,&5"UYSD$47+S$48pZH@#A\q"ORYq"OOWq"OOX
+q"OOXp\=OYp\=Inp\=LXp\4FWq"X[[p\=LXp\=OXq"OOXq"PBoq"XXYp\=OYp\=OYp\4IWq"HrHq=j
+XXq"ORYp\=LWp\=OYq"XUXq"XUYpHA9Gp\4IXp\4IWq"XUXq"ORXq"XUXq"OPP4V&&6(D@,_$47+I$
+3^V;"U,&5"U,&2!WiE)!WiE)!WiE)zzzzzzzzzz!!NN0"U,&5"U,&5"U,&5"U,&5"U,&5"U,&:$5=3
+^$47+I4aVMMq"ORXp\=OYq"XUXp\4IXq"XUYp\=LXp\4FWp\=OXp\=LWq"XXYp\=LXq"ORYq"ORYp\
+=LWq"XUYq"OOWq"OOXp\4IWp\4IXp\=OXp\4FWq"ORYp\4IXp\4IXp\=LWp\=LWq"a[Yp\4FWp\=LX
+p\4IWq=mBL%hB0]$47F[$47+I$3^S:"U,&6"U,&2!WiE)!WiE)!WiE)zzzzzzzzzz!!NN0"U5,6"U,
+&5"U,&6"U,&5"U,&5"U,&5"U,SI$47+I$@7#Fp\=LXqY0aYp\=LXp\=OXp\=LXp\=OZp\4FWq"OOXp
+\=OXp\4IWp\=LWp\=LWq"XUXq"OOXp\4IWp\4IWp\FRXq"OOXq"OOXp\4IXp\4IWp\4FWq"XXZq"XU
+Yp\=OYq"ORYp\4IYp\FRYp\=LWq"XUXpI.nA%hB0]$47+I',(]["U,)7"U,&5"U,&2!WiE)!WiE)!W
+iE)zzzzzzzzzz!!NN0"U,&5"U,)6"U,&5"U,&6"U,&5"U,&@&-W4E$47+I$48qBH@#>[p\=OXq"XXZ
+q"OOYq"ORXp\4FWp\4GPp\=LXp\4FVp\4IWp\4FWp\=LWp\4IWq"R>Qq"XUYp\=LWp\,O!q"ORXp\=
+LYq"XUXp\4FVp\=LWp\=LXpDE]#p\=LWp\4FWq"XUXp\4FWq"ORYp\4DN:dkm*&.]9Y$47+R',(]["
+U,&5"U,&5"U,&2!WiE)!WiE)!WiE)zzzzzzzzzz!!NN0"U,&5"U,&5"U,&6"U,&5"U,&5"pG/A&-W4
+@"U,5?$47+IH?sm`p\=LWp\=OYp\4FVq"ORXq"XUYp\=LWp\4FV)#*e!p\4FWq"XXZp\4FVp\4FWq"
+XUYq"OP,pItAVq"OOWq"XXZq"OOWp\4IXq"XUXp\=LW6ML6Kp\4IXp\=LXq"ORXp\4FVp\=OXq"OOX
+pI.M?71Tn>%hB!S$47+I$54'V"U,&5"U,&5"U+r/!WiE)!WiE)!WiE)zzzzzzzzzz!!NN0"U,&5"U,
+&5"U,&5"U,&6"U,&5"U,&5"U5,6"U,&5$47+I$5@f4p\4FWq"XUXp\4IWq"XUXp\4FWp\=OYq"ORXp
+\=LXq"XUYp\=LWq"XXZp\=LWq"XXYp\4FWq"OOXp\4IXq"ORYp\4IWq=jXXp\=LXp\=LXp\4IWq"XX
+Zp\=LWp\4FWq"OOXp\=LWp\=OXpI.nT*=iYk%hB!S$47+I$53pR"U,&5"U,&6"U+r/!WiE)!WiE)!W
+iE)zzzzzzzzzz!!33'"U,&5"U,&5"U,&5"U,&5"U,&5"U,&5"U,&5"U,)6"U,&:'GNEOH@#A\p\=OX
+q"XS#q"OOXp\=LXp\4IWq"XXYq"OOWp\=LWq"ORYp\4IXp\4IXp\=LWq"XUXq"ORXq"OOXp\=OXp\=
+OXp\=LWq"OOXq"ORYp\4IXp\=LWq"XUYq"XUXpdY&Qq"XXZp\4GO;+200%hB0]%giXN$47+I$46qI%
+g<.@"U,&5"U+r/!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!X/`2"U,&5"U,&6"U,&5"U,&5"U,&
+5"U,&5"U,GK"UYSDEI)qWq"ORXp\4IXq"[)Jq"ORXq"XUXp\=LXp\4FVq"ORXp\4FWpHJ?Hq"OOWq"
+ORYq"ORYp\=OXq"XXYq"OOWq"OLnp\4IXq"ORYq"ORXp\=LXp\4IXq"XXYp\,9pq"ORXp\4IWpdR_E
+72-7C%hB0]%giXN$47+I$3^SD%g<+?"U,&6"U+r/!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!Wi
+E)!WiN/"U,&5"U,&5"pG/6"U,&5"U,&5"U,GK"U,5?$4:clHMI70q"XUXp\4IWp\4IXp\=LXp\=LWq
+"XUXp\4FWp^d/pp\4FVp\=OY8,2iQp\=LXp\=OXp\4IW)#*h#q"OOWq"OPHq"XUXq"OOXq"ORYq"OO
+Wp\=LXp\=LXp\4IXq"XUY77BWZ'Ft]b%hB0]$47+I$47+I$3^S:"U,&5"U,&5"U+r/!WiE)!WiE)!W
+iE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!WiE,"U,&5"U,&5"pG/6"U,&5"V:kA"U,&5"U[+OEH(^J
+p\4FWp\4FVq"OOXp\4FWp\=OXp\4FVq"a[Zp\4IWp\=OXq"OOXq"XXYq"ORXq"OOWq"OUZq"XUXq"O
+OXp\4IXp\4FWq"XUXp\=OXp\=LWp\=LWq"OOWp\=LWp\=JO73**W'Ft]b%hB<\$47+I$47+I$3gY;"
+U,&5"U,&5"U+r/!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!WiE)!Wif7"U,&5"U,&
+5"U5,6&.f!K"U,&6"U,&:4?mh*q"XUXq"XXYp\4IW&,5hnq"OOWq"OOXp\=OYq"XXYq"OOXq"XXYq"
+ORXq"ORYp\=OXp\4IWp\4IXq"OOWq"XUYq"XUXp\=OXq"OOWp\=LW8b`#Sp\4IWp\=OYpI.nT*>B1u
+%hB0]%hB!S$47+I$47+I$3^S:"U5,6"U,&5"Te`,!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!Wi
+E)!WiE)!WiE)!WiE)!WiE)"U,&5"U,&5"U,)6"U,&5"U,&6$3`Y5E,kXIq"XXYq"ORXq"OOWq"XUXp
+\=OX4o"dGp\=LXq"ORYp\4IWq"ORXq"XUXq"OOXq"OOWq"ORXp\=OXp\=LXp\4FW&,>nnp\4FWp\4I
+Wq"ORXp\4FXq"XSX78P!8()mbp%hB0]%giXW$47+I$47+I"U5,6"U,&5"U,)6"Te`,!WiE)!WiE)!W
+iE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!X/`2"U,&5"U,&6"U,&5"V2+I
+4`GC\E;0,$p\=OXp\=LWp\4FXp\4IWp\4IWp\FUYp\=LWq"XXZp\4FWq"ORXq"XXYp\=LWp\=OYq"O
+OWp\4IXq"XXYp\=LWp\FRXp\4FVp\4FWq"OOX9he>N)&*c*%i>ff%hB0]$47+I$47+I$47+I"U,&5"
+U5,6"U,&5"Te`,!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE
+)!WiE)!WiN/"U,&5"U,&5&-W4@"U-c'EH-!mp\=LXp\4IXp\=OXp\4FVq"XUYp\4FWq"ORXp\4FWp\
+=OYq"OOWq"OOWq"XUYp\4FVp\4IXq"ORXp\=LXp\4FVq"ORYp\4IWp\=OYp\.BV=[a#='GM5q(_[Dj
+%hB0]$47+I$47+I$47+D"U,&5"U,&5"U,&5"Te`,!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!Wi
+E)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE,"U,&@&-W4@"pG/6E,fi9EVT>'p\=OXp\4FXp
+DEZ!q"OOWq"a^Zq"OOWp\=OYq"OOXq"OOWq"OOWq"XXYq"XXZp\4FVq"ORZq"OOWp\4DOp\=LWp\4F
+Wp\4IX:/+hm72-FM'GM5l(`3bo%hB0X$47+I$47+I$47+D"U,&5"U5,6"U,&5!WiE)!WiE)!WiE)!W
+iE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE7&-W4@
+"U,&5"U,EVEH#plp\=JGp\4FWq"ORYq"ORYq"OOWp\=OXq"XXYq"ORYp\4IXp\=OXp\=OXq"ORXq"O
+OXp\4FVq"ORXq"XXYq"XXYpCI&oq"IKW9it+('GM5r'Ft]b%i>ff%hB0X$47+I$47+I$46q?"pG/6"
+U,&5"U,)6!WiE)!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE
+)!WiE)!WiE)!WiE)!XT8:!WiE)"U,&5"U,A>"__mqEH(^Jp\=OYq"XUXp\=LWq"XXZp\4IXq"ORXp\
+4FVq"XUXq"OOXq"OOWp\4IWq"XXZp\4IXp\4FWq"OOXq"XUYq"OPY9hnhd9b\9U'GM5q%hB0]%i?-#
+%hB!S$47+I$47+I$3^S:"U,&5"U5,6"U,&5!WiE)!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!Wi
+E)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!XoJ=!WiE)!WiE)"U,D?"U,'CB4l4'q"OOXp
+\=LWq"XUXp\=LWq"XXYp\4FWp\=LYq"XXYq"ORYq"XUYp\4FVq"ORXq"XUYp\=OYp\4IXp\=OXpe=I
+W9hlT@'GM5r'GM5q%hB0]%i,um%giXN$47+I$47+I$3^S:"U,&5"U,&5"U,)6!WiE)!WiE)!WiE)!W
+iE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE4%0?S4!WiE)!WiE)!WiE)!WiE)
+!WiE)!XoJ=!X/`2"YMHAB4tuRp\=LWp\4FWq"OOYp\4FWp\4LYp\=LWp\=OXq"OOXp\4FWp\=OYp\=
+OXp\FRYq"XUXq"XUYp\8/k9hloO)B';('GV;r'GM&g%hB0]%hB0f(^^TW$47+I$47+I"U,&5"U,&5"
+U,&5"U,&5!WiE)!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!XoM
+>!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!Xo,3!WiE)!WiN\2eZi:BP2#Qq"XXZp\=OYp\4IXp\=LXq"
+XXYp\=LXp\=LWp\4FWq"XUXp\=OXp\4FVp\4IXq"Ifi<_Z:_,9n*F'GM5q'GM&l'Ft]b%hB0]%hB0X
+%13FL$47+I$47+I"U,&6"pG/6"U,&5"U,&5!WiE)!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!Wi
+E)!WiE)!WiE)!WiE)!WiE)!Y#S?!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)$k*1sB
+P;'mBP2!lq"XUXq"OOWp\=OXp\4IWp\=LXp\=LXq"ORXp\=LXp\4FVq"ORZpf:Er<`W6r9d:l$,9mm
+:'GM5q'GM5u%hB0]%hB0]%hB!S',(][$47+I$47+I"U,&5"U,&5"pG/6"U,&2!WiE)!WiE)!WiE)!W
+iE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)
+!WiE+$k*1=!WiE)!WiE)!WiE)!WiE)B4tpjB4kmkB__Atp\4FWq"ORYq"PBoq"HrHq"XXYp\=LWp\=
+OX<`W7%<`W7%9b/-\)B'hF'GV;r'GM5q'GVAo%hB0]%hB0]%hB!S',(][$47+I$47+I"U,&5"U,&5"
+U,&5"U5,3!WiE)!WiE)!WiE)!WiE)zzzzzzzzzz!!33'!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE
+)!WiE)!WiE)!WiE)!WiE)!WiE)!WiE)$k*1=!WiE)!WiE)$j$J3!WiE)!WiE2BP;$lB4tpjB5%)7q"
+ORYq"OOXp\4IWq"XUXp\=Ma<`W7%<`W7%<`Vp5)B'P5)B'M7'H.Z"'GM8r'GM&m(_7,f%hB0]%giXN
+$47+I$47+I$47+D"U,&5"U,&5"pG/6"U,&2!WiE)!WiE)!WiE)!WiE)zzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz~>
+InterpretLevel1 not {
+  grestore
+} if
+grestore
+%%%%EndImage
+% End plot #1
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+546 4871 N
+546 280 L
+5500 0 V
+0 4591 V
+-5500 0 V
+Z stroke
+stroke gsave	%% draw gray scale smooth box
+maxcolors 0 gt {/imax maxcolors def} {/imax 1024 def} ifelse
+6183 280 translate 275 4591 scale 0 setlinewidth
+/ystep 1 imax div def /y0 0 def /ii 0 def
+{ 0.99999 y0 sub g 0 y0 N 1 0 V 0 ystep V -1 0 f
+/y0 y0 ystep add def /ii ii 1 add def
+ii imax ge {exit} if } loop
+grestore 0 setgray
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 280 N
+275 0 V
+0 4591 V
+-275 0 V
+0 -4591 V
+Z stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+6458 280 M
+-63 0 V
+stroke
+6542 280 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-4.5x10)]
+[(Helvetica) 112.0 70.0 true true 0 (11)]
+] -60.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 280 M
+63 0 V
+212 510 R
+-63 0 V
+stroke
+6542 790 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-4x10)]
+[(Helvetica) 112.0 70.0 true true 0 (11)]
+] -60.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 790 M
+63 0 V
+212 510 R
+-63 0 V
+stroke
+6542 1300 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-3.5x10)]
+[(Helvetica) 112.0 70.0 true true 0 (11)]
+] -60.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 1300 M
+63 0 V
+212 510 R
+-63 0 V
+stroke
+6542 1810 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-3x10)]
+[(Helvetica) 112.0 70.0 true true 0 (11)]
+] -60.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 1810 M
+63 0 V
+212 510 R
+-63 0 V
+stroke
+6542 2320 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-2.5x10)]
+[(Helvetica) 112.0 70.0 true true 0 (11)]
+] -60.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 2320 M
+63 0 V
+212 510 R
+-63 0 V
+stroke
+6542 2830 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-2x10)]
+[(Helvetica) 112.0 70.0 true true 0 (11)]
+] -60.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 2830 M
+63 0 V
+212 510 R
+-63 0 V
+stroke
+6542 3340 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-1.5x10)]
+[(Helvetica) 112.0 70.0 true true 0 (11)]
+] -60.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 3340 M
+63 0 V
+212 510 R
+-63 0 V
+stroke
+6542 3850 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-1x10)]
+[(Helvetica) 112.0 70.0 true true 0 (11)]
+] -60.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 3850 M
+63 0 V
+212 510 R
+-63 0 V
+stroke
+6542 4360 M
+[ [(Helvetica) 140.0 0.0 true true 0 (-5x10)]
+[(Helvetica) 112.0 70.0 true true 0 (10)]
+] -60.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 4360 M
+63 0 V
+212 511 R
+-63 0 V
+stroke
+6542 4871 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6183 4871 M
+63 0 V
+1.000 UP
+stroke
+LTb
+LCb setrgbcolor
+grestore % colour palette end
+stroke
+grestore
+end
+showpage
+%%Trailer
+%%DocumentFonts: Helvetica
+%%Pages: 1

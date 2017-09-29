@@ -1,0 +1,12 @@
+#Numero de angulo
+1
+#Numero de rayos/angulo
+500000
+#Numero de detectores
+400
+#Factor dimensional de la malla
+2
+#Resolucion main lens (numero de divisiones)
+60
+#Numero de lentillas
+20

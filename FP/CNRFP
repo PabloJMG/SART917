@@ -1,0 +1,2 @@
+gcc source/openfmod.c -lm -fopenmp -g -o exe/openf
+./exe/openf

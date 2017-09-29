@@ -1,0 +1,22 @@
+#Anchura de la malla
+1.4
+#deltaX
+0.01
+#deltaY
+0.01
+#deltasource
+0.001
+#Distancia source - mesh
+1.0
+#Delta de Paso en la propagacion
+0.005
+#Anchura de la lente
+2.8
+#Anchura de las lentillas (igual a la anchura de los detectores)
+3.6
+#Distancia malla - mainlens
+0.5
+#Distancia main lens - lenslet
+1.5
+#Distancia lenslet - detector
+0.05
